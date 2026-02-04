@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { Mail, Phone, MapPin, Clock, Send, CheckCircle } from "lucide-react";
+import { Mail, Phone, Clock, Send, CheckCircle } from "lucide-react";
 import { toast } from "sonner";
 import axios from "axios";
 
@@ -194,22 +194,6 @@ export default function ContactPage() {
 
               <div className="space-y-6 mb-12">
                 <div
-                  data-testid="contact-info-address"
-                  className="flex items-start gap-4 p-6 bg-slate-50 rounded-sm"
-                >
-                  <div className="w-12 h-12 bg-[#0A192F] rounded-sm flex items-center justify-center flex-shrink-0">
-                    <MapPin className="w-5 h-5 text-[#D4AF37]" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-[#0A192F] mb-1">Adres biura</h3>
-                    <p className="text-slate-600 text-sm">
-                      ul. Marszałkowska 100<br />
-                      00-001 Warszawa
-                    </p>
-                  </div>
-                </div>
-
-                <div
                   data-testid="contact-info-phone"
                   className="flex items-start gap-4 p-6 bg-slate-50 rounded-sm"
                 >
@@ -219,10 +203,10 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-[#0A192F] mb-1">Telefon</h3>
                     <a
-                      href="tel:+48123456789"
+                      href="tel:+48518607320"
                       className="text-slate-600 text-sm hover:text-[#D4AF37] transition-colors"
                     >
-                      +48 123 456 789
+                      518 607 320
                     </a>
                   </div>
                 </div>
@@ -237,10 +221,10 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-[#0A192F] mb-1">E-mail</h3>
                     <a
-                      href="mailto:kontakt@wealthadvisor.pl"
+                      href="mailto:jan.domanski@inpartners.pl"
                       className="text-slate-600 text-sm hover:text-[#D4AF37] transition-colors"
                     >
-                      kontakt@wealthadvisor.pl
+                      jan.domanski@inpartners.pl
                     </a>
                   </div>
                 </div>

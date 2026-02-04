@@ -38,7 +38,7 @@ export const Footer = () => {
               długoterminowe bezpieczeństwo i świadome budowanie majątku.
             </p>
             <p className="text-[#D4AF37] font-mono text-xs tracking-wider">
-              EST. 2020 • WARSZAWA
+              EST. 2020 • OPOLE
             </p>
           </div>
 
@@ -81,29 +81,22 @@ export const Footer = () => {
           <div>
             <h4 className="font-display text-lg font-semibold mb-6">Kontakt</h4>
             <ul className="space-y-4">
-              <li className="flex items-start gap-3">
-                <MapPin size={18} className="text-[#D4AF37] flex-shrink-0 mt-0.5" />
-                <span className="text-slate-400 text-sm">
-                  ul. Marszałkowska 100<br />
-                  00-001 Warszawa
-                </span>
-              </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-[#D4AF37] flex-shrink-0" />
                 <a
-                  href="tel:+48123456789"
+                  href="tel:+48518607320"
                   className="text-slate-400 hover:text-[#D4AF37] transition-colors text-sm"
                 >
-                  +48 123 456 789
+                  518 607 320
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-[#D4AF37] flex-shrink-0" />
                 <a
-                  href="mailto:kontakt@wealthadvisor.pl"
+                  href="mailto:jan.domanski@inpartners.pl"
                   className="text-slate-400 hover:text-[#D4AF37] transition-colors text-sm"
                 >
-                  kontakt@wealthadvisor.pl
+                  jan.domanski@inpartners.pl
                 </a>
               </li>
             </ul>

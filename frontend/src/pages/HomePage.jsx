@@ -11,7 +11,7 @@ export default function HomePage() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1748353672526-57695dd11cdd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHwyfHx3YXJzYXclMjBwb2xhbmQlMjBza3lsaW5lJTIwbW9kZXJuJTIwYXJjaGl0ZWN0dXJlfGVufDB8fHx8MTc3MDIyMTQ3OXww&ixlib=rb-4.1.0&q=85')`
+            backgroundImage: `url('https://customer-assets.emergentagent.com/job_invest-wisely-20/artifacts/zlto6h57_Opole%20rynek%20z%20lotu%20ptaka.jpg')`
           }}
         >
           <div className="hero-overlay absolute inset-0" />
@@ -20,7 +20,7 @@ export default function HomePage() {
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-32">
           <div className="max-w-2xl">
             <p className="font-mono text-[#D4AF37] text-xs tracking-widest mb-6 animate-fade-in-up">
-              DORADZTWO FINANSOWE • WARSZAWA
+              PLANOWANIE FINANSOWE • OPOLE
             </p>
             <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl text-white font-bold leading-tight mb-6 animate-fade-in-up animation-delay-100">
               Buduj majątek z perspektywą na lata
