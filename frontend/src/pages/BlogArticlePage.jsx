@@ -214,7 +214,7 @@ export default function BlogArticlePage() {
             <Link to="/umow-spotkanie">
               <Button
                 data-testid="article-cta-button"
-                className="bg-[#D4AF37] text-[#0A192F] hover:bg-white transition-all duration-300 rounded-sm px-8 py-6 font-semibold"
+                className="bg-[#D4AF37] text-[#0A192F] hover:bg-white transition-all duration-300 rounded-xl px-8 py-6 font-semibold"
               >
                 Umów spotkanie
                 <ArrowRight className="ml-2 h-5 w-5" />

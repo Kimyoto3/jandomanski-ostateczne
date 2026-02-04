@@ -84,7 +84,7 @@ export default function BlogPage() {
                 size="sm"
                 onClick={() => setSelectedCategory(null)}
                 data-testid="category-all"
-                className={`rounded-sm ${
+                className={`rounded-xl ${
                   selectedCategory === null
                     ? "bg-[#0A192F] text-white"
                     : "border-slate-200 text-slate-600 hover:border-[#0A192F]"
@@ -99,7 +99,7 @@ export default function BlogPage() {
                   size="sm"
                   onClick={() => setSelectedCategory(category)}
                   data-testid={`category-${category.toLowerCase().replace(/\s/g, "-")}`}
-                  className={`rounded-sm ${
+                  className={`rounded-xl ${
                     selectedCategory === category
                       ? "bg-[#0A192F] text-white"
                       : "border-slate-200 text-slate-600 hover:border-[#0A192F]"
@@ -210,7 +210,7 @@ export default function BlogPage() {
             <Link to="/umow-spotkanie">
               <Button
                 data-testid="blog-cta-button"
-                className="bg-[#D4AF37] text-[#0A192F] hover:bg-white transition-all duration-300 rounded-sm px-8 py-6 font-semibold"
+                className="bg-[#D4AF37] text-[#0A192F] hover:bg-white transition-all duration-300 rounded-xl px-8 py-6 font-semibold"
               >
                 Umów bezpłatną konsultację
                 <ArrowRight className="ml-2 h-5 w-5" />

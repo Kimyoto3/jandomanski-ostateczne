@@ -55,7 +55,7 @@ export default function AboutMePage() {
               <Link to="/umow-spotkanie">
                 <Button
                   data-testid="about-cta-button"
-                  className="bg-[#0A192F] text-white hover:bg-[#D4AF37] hover:text-[#0A192F] transition-all duration-300 rounded-sm px-8 py-6 font-medium"
+                  className="bg-[#0A192F] text-white hover:bg-[#D4AF37] hover:text-[#0A192F] transition-all duration-300 rounded-xl px-8 py-6 font-medium"
                 >
                   Umów spotkanie
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -236,7 +236,7 @@ export default function AboutMePage() {
           <Link to="/umow-spotkanie">
             <Button
               data-testid="about-cta-bottom"
-              className="bg-[#0A192F] text-white hover:bg-[#D4AF37] hover:text-[#0A192F] transition-all duration-300 rounded-sm px-10 py-6 text-base font-semibold"
+              className="bg-[#0A192F] text-white hover:bg-[#D4AF37] hover:text-[#0A192F] transition-all duration-300 rounded-xl px-10 py-6 text-base font-semibold"
             >
               Umów bezpłatną konsultację
               <ArrowRight className="ml-2 h-5 w-5" />
