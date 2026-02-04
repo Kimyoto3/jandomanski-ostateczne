@@ -20,8 +20,8 @@ export default function AboutCompanyPage() {
               w świadomym budowaniu majątku i długoterminowego bezpieczeństwa 
               finansowego.
             </p>
-            <p className="font-mono text-[#D4AF37] text-xs tracking-widest">
-              EST. 2020 • WARSZAWA, POLSKA
+            <p className="font-mono text-[#D4AF37] text-xs tracking-widest mb-4">
+              EST. 2020 • OPOLE, POLSKA
             </p>
           </div>
         </div>
