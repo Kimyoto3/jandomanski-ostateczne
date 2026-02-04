@@ -105,7 +105,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Large Card */}
             <div
-              data-testid="service-card-investment"
+              data-testid="service-card-strategy"
               className="lg:col-span-2 bg-white p-10 rounded-sm border border-slate-100 shadow-sm card-hover"
             >
               <div className="flex items-start gap-6">
@@ -114,12 +114,15 @@ export default function HomePage() {
                 </div>
                 <div>
                   <h3 className="font-display text-2xl font-semibold text-[#0A192F] mb-3">
-                    Doradztwo inwestycyjne
+                    Strategia finansowa
                   </h3>
                   <p className="text-slate-600 leading-relaxed mb-4">
-                    Pomagam w budowaniu zdywersyfikowanego portfela inwestycyjnego 
-                    dopasowanego do Twojego profilu ryzyka i horyzontu czasowego. 
-                    Analizuję rynki i wskazuję najlepsze możliwości.
+                    Pomagam zaplanować spójną strategię zarządzania finansami, która daje 
+                    poczucie kontroli i porządku w podejmowanych decyzjach. Uwzględniam 
+                    zarówno cele krótko-, jak i długoterminowe oraz zmieniające się warunki 
+                    życiowe, dzięki czemu strategia pozostaje elastyczna i dopasowana do 
+                    aktualnej sytuacji. Efektem jest większa przejrzystość finansów i 
+                    spokojniejsze podejmowanie decyzji w długim horyzoncie.
                   </p>
                   <Link 
                     to="/umow-spotkanie" 
