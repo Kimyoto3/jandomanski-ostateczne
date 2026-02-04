@@ -117,12 +117,9 @@ export default function HomePage() {
                     Strategia finansowa
                   </h3>
                   <p className="text-slate-600 leading-relaxed mb-4">
-                    Pomagam zaplanować spójną strategię zarządzania finansami, która daje 
-                    poczucie kontroli i porządku w podejmowanych decyzjach. Uwzględniam 
-                    zarówno cele krótko-, jak i długoterminowe oraz zmieniające się warunki 
-                    życiowe, dzięki czemu strategia pozostaje elastyczna i dopasowana do 
-                    aktualnej sytuacji. Efektem jest większa przejrzystość finansów i 
-                    spokojniejsze podejmowanie decyzji w długim horyzoncie.
+                    Pomagam zaplanować spójną strategię zarządzania finansami, uwzględniając 
+                    cele <strong className="text-[#0A192F]">krótko</strong> i <strong className="text-[#0A192F]">długoterminowe</strong> oraz 
+                    zmieniające się warunki życiowe.
                   </p>
                   <Link 
                     to="/umow-spotkanie" 
