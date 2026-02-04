@@ -157,6 +157,7 @@ html {
   background-color: var(--navy);
   color: white;
   transition: all 0.3s ease;
+  border-radius: 12px;
 }
 
 .btn-primary:hover {
@@ -168,6 +169,7 @@ html {
   border: 1px solid var(--navy);
   color: var(--navy);
   transition: all 0.3s ease;
+  border-radius: 12px;
 }
 
 .btn-secondary:hover {

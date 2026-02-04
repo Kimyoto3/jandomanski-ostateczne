@@ -118,7 +118,7 @@ export const Navbar = () => {
                 <Link to="/umow-spotkanie">
                   <Button
                     data-testid="mobile-cta-button"
-                    className="w-full bg-[#0A192F] text-white hover:bg-[#D4AF37] hover:text-[#0A192F] transition-all duration-300 rounded-sm"
+                    className="w-full bg-[#0A192F] text-white hover:bg-[#D4AF37] hover:text-[#0A192F] transition-all duration-300 rounded-xl"
                   >
                     Umów spotkanie
                   </Button>

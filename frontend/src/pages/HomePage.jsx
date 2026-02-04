@@ -33,7 +33,7 @@ export default function HomePage() {
               <Link to="/umow-spotkanie">
                 <Button
                   data-testid="hero-cta-primary"
-                  className="bg-[#D4AF37] text-[#0A192F] hover:bg-white hover:text-[#0A192F] transition-all duration-300 rounded-sm px-8 py-6 text-base font-semibold"
+                  className="bg-[#D4AF37] text-[#0A192F] hover:bg-white hover:text-[#0A192F] transition-all duration-300 rounded-xl px-8 py-6 text-base font-semibold"
                 >
                   Umów spotkanie
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -43,7 +43,7 @@ export default function HomePage() {
                 <Button
                   data-testid="hero-cta-secondary"
                   variant="outline"
-                  className="border-white text-white hover:bg-white hover:text-[#0A192F] transition-all duration-300 rounded-sm px-8 py-6 text-base font-semibold"
+                  className="border-white text-white hover:bg-white hover:text-[#0A192F] transition-all duration-300 rounded-xl px-8 py-6 text-base font-semibold"
                 >
                   Poznaj ofertę
                 </Button>
@@ -272,7 +272,7 @@ export default function HomePage() {
           <Link to="/umow-spotkanie">
             <Button
               data-testid="cta-button-bottom"
-              className="bg-[#D4AF37] text-[#0A192F] hover:bg-white transition-all duration-300 rounded-sm px-10 py-6 text-base font-semibold"
+              className="bg-[#D4AF37] text-[#0A192F] hover:bg-white transition-all duration-300 rounded-xl px-10 py-6 text-base font-semibold"
             >
               Umów bezpłatną konsultację
               <ArrowRight className="ml-2 h-5 w-5" />
