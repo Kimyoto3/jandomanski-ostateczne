@@ -119,7 +119,7 @@ export default function BlogArticlePage() {
             {error || "Artykuł nie istnieje"}
           </h1>
           <Link to="/blog">
-            <Button className="bg-[#0A192F] text-white hover:bg-[#D4AF37] hover:text-[#0A192F] rounded-sm">
+            <Button className="bg-[#0A192F] text-white hover:bg-[#D4AF37] hover:text-[#0A192F] rounded-xl">
               <ArrowLeft className="w-4 h-4 mr-2" />
               Wróć do bloga
             </Button>

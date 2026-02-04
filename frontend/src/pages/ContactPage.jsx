@@ -92,7 +92,7 @@ export default function ContactPage() {
                   <Button
                     onClick={() => setIsSubmitted(false)}
                     variant="outline"
-                    className="border-[#0A192F] text-[#0A192F] hover:bg-[#0A192F] hover:text-white rounded-sm"
+                    className="border-[#0A192F] text-[#0A192F] hover:bg-[#0A192F] hover:text-white rounded-xl"
                   >
                     Wyślij kolejną wiadomość
                   </Button>
@@ -171,7 +171,7 @@ export default function ContactPage() {
                     type="submit"
                     disabled={isSubmitting}
                     data-testid="contact-submit-button"
-                    className="w-full bg-[#0A192F] text-white hover:bg-[#D4AF37] hover:text-[#0A192F] transition-all duration-300 rounded-sm h-12 font-medium"
+                    className="w-full bg-[#0A192F] text-white hover:bg-[#D4AF37] hover:text-[#0A192F] transition-all duration-300 rounded-xl h-12 font-medium"
                   >
                     {isSubmitting ? (
                       "Wysyłanie..."

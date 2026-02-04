@@ -139,7 +139,7 @@ export default function BookMeetingPage() {
               });
               setSelectedDate(undefined);
             }}
-            className="bg-[#0A192F] text-white hover:bg-[#D4AF37] hover:text-[#0A192F] rounded-sm px-8 py-6"
+            className="bg-[#0A192F] text-white hover:bg-[#D4AF37] hover:text-[#0A192F] rounded-xl px-8 py-6"
           >
             Zarezerwuj kolejne spotkanie
           </Button>
@@ -381,7 +381,7 @@ export default function BookMeetingPage() {
                     type="submit"
                     disabled={isSubmitting || !selectedDate || !formData.preferred_time}
                     data-testid="booking-submit-button"
-                    className="w-full bg-[#D4AF37] text-[#0A192F] hover:bg-[#0A192F] hover:text-white transition-all duration-300 rounded-sm h-14 font-semibold text-base"
+                    className="w-full bg-[#D4AF37] text-[#0A192F] hover:bg-[#0A192F] hover:text-white transition-all duration-300 rounded-xl h-14 font-semibold text-base"
                   >
                     {isSubmitting ? (
                       "Wysyłanie..."
