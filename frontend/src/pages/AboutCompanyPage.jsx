@@ -16,7 +16,7 @@ export default function AboutCompanyPage() {
               Investment Partners
             </h1>
             <p className="text-lg text-slate-600 leading-relaxed mb-6">
-              Investment Partners to firma specjalizująca się w planowaniu finansowym, 
+              Investment Partners to firma specjalizująca się w&nbsp;planowaniu finansowym, 
               współpracująca z instytucjami finansowymi działającymi pod nadzorem 
               Komisji Nadzoru Finansowego. W ramach tej współpracy działam jako radca majątkowy.
             </p>
@@ -89,7 +89,7 @@ export default function AboutCompanyPage() {
                 i&nbsp;długoterminowego myślenia.
               </p>
               <p className="text-slate-600 leading-relaxed">
-                Dążymy do świata, w którym edukacja finansowa jest powszechna, 
+                Dążymy do świata, w&nbsp;którym edukacja finansowa jest powszechna, 
                 a każdy może z pewnością planować swoją przyszłość.
               </p>
             </div>
@@ -171,7 +171,7 @@ export default function AboutCompanyPage() {
 
               <div className="space-y-4">
                 {[
-                  "Rejestracja w KNF jako agent firmy inwestycyjnej",
+                  "Rejestracja w&nbsp;KNF jako agent firmy inwestycyjnej",
                   "Zgodność z dyrektywą MiFID II",
                   "Polityka ochrony danych zgodna z RODO",
                   "Ubezpieczenie OC działalności zawodowej",

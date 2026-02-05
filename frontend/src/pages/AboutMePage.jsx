@@ -41,7 +41,7 @@ export default function AboutMePage() {
                 Certyfikowany Doradca Finansowy
               </p>
               <p className="text-slate-600 leading-relaxed mb-6">
-                Od ponad 15 lat pomagam klientom w budowaniu długoterminowego 
+                Od ponad 15 lat pomagam klientom w&nbsp;budowaniu długoterminowego 
                 bezpieczeństwa finansowego. Moja filozofia opiera się na głębokim 
                 zrozumieniu indywidualnych potrzeb każdego klienta i&nbsp;tworzeniu 
                 spersonalizowanych strategii, które prowadzą do realnych rezultatów.
@@ -83,8 +83,8 @@ export default function AboutMePage() {
               <div className="space-y-6">
                 {[
                   {
-                    title: "MBA w Finansach",
-                    institution: "Szkoła Główna Handlowa w Warszawie",
+                    title: "MBA w&nbsp;Finansach",
+                    institution: "Szkoła Główna Handlowa w&nbsp;Warszawie",
                     year: "2012"
                   },
                   {

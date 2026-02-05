@@ -87,7 +87,7 @@ export default function ContactPage() {
                     Dziękuję za wiadomość!
                   </h3>
                   <p className="text-slate-600 mb-6">
-                    Odpowiem najszybciej jak to możliwe, zazwyczaj w ciągu 24 godzin.
+                    Odpowiem najszybciej jak to możliwe, zazwyczaj w&nbsp;ciągu 24 godzin.
                   </p>
                   <Button
                     onClick={() => setIsSubmitted(false)}

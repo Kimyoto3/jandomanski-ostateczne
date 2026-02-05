@@ -353,7 +353,7 @@ export default function BookMeetingPage() {
                       value={formData.message}
                       onChange={handleChange}
                       data-testid="booking-message-input"
-                      placeholder="Opisz krótko, w czym mogę pomóc..."
+                      placeholder="Opisz krótko, w&nbsp;czym mogę pomóc..."
                       rows={4}
                       className="rounded-sm border-slate-200 focus:border-[#0A192F] focus:ring-[#0A192F] resize-none"
                     />
@@ -394,7 +394,7 @@ export default function BookMeetingPage() {
                   </Button>
 
                   <p className="text-slate-400 text-xs text-center">
-                    Rezerwując spotkanie, wyrażasz zgodę na kontakt w celu potwierdzenia terminu.
+                    Rezerwując spotkanie, wyrażasz zgodę na kontakt w&nbsp;celu potwierdzenia terminu.
                   </p>
                 </div>
               </div>
