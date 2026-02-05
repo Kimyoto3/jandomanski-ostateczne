@@ -34,13 +34,18 @@ export default function AboutMePage() {
               <p className="text-[#D4AF37] font-medium mb-6">
                 Planer finansowy
               </p>
-              <p className="text-slate-600 leading-relaxed mb-8">
+              <p className="text-slate-600 leading-relaxed mb-4">
                 Nie buduję relacji w&nbsp;oparciu o&nbsp;obietnice szybkich efektów. 
                 Skupiam się na porządkowaniu finansów, długoterminowym myśleniu 
                 i&nbsp;świadomych decyzjach. Współpracuję z&nbsp;osobami, które chcą mieć 
                 <strong className="text-[#0A192F]"> spokój w&nbsp;finansach</strong> oraz 
                 <strong className="text-[#0A192F]"> jasny plan</strong> prowadzący – przy 
                 wsparciu ekspertów – do wyznaczonych celów.
+              </p>
+              <p className="text-slate-600 leading-relaxed mb-8">
+                Działam jako radca majątkowy we współpracy z&nbsp;<strong className="text-[#0A192F]">Investment Partners S.A.</strong>, 
+                co zapewnia dostęp do sprawdzonych rozwiązań i&nbsp;współpracę z&nbsp;regulowanymi 
+                instytucjami finansowymi.
               </p>
               <Link to="/umow-spotkanie">
                 <Button
@@ -139,7 +144,7 @@ export default function AboutMePage() {
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6 md:px-12 text-center">
           <h2 className="font-display text-3xl font-bold text-[#0A192F] mb-4">
-            Chcesz poznać się bliżej?
+            Poznajmy się
           </h2>
           <p className="text-slate-600 max-w-xl mx-auto mb-8">
             Umów się na niezobowiązującą rozmowę. Chętnie odpowiem na Twoje 
