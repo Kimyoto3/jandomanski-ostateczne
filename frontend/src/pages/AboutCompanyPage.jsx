@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Shield, Target, Users, Scale, ArrowRight, CheckCircle } from "lucide-react";
+import { Shield, Target, Users, Scale, ArrowRight, CheckCircle, Star } from "lucide-react";
 
 export default function AboutCompanyPage() {
   return (
@@ -13,12 +13,12 @@ export default function AboutCompanyPage() {
               O FIRMIE
             </p>
             <h1 className="font-display text-4xl md:text-5xl font-bold text-[#0A192F] mb-6">
-              Wealth Advisor
+              Investment Partners
             </h1>
             <p className="text-lg text-slate-600 leading-relaxed mb-6">
-              Niezależna firma doradztwa finansowego, która pomaga klientom 
-              w świadomym budowaniu majątku i długoterminowego bezpieczeństwa 
-              finansowego.
+              Investment Partners to firma specjalizująca się w planowaniu finansowym, 
+              współpracująca z instytucjami finansowymi działającymi pod nadzorem 
+              Komisji Nadzoru Finansowego. W ramach tej współpracy działam jako radca majątkowy.
             </p>
             <p className="font-mono text-[#D4AF37] text-xs tracking-widest mb-4">
               EST. 2020 • OPOLE, POLSKA
@@ -27,14 +27,34 @@ export default function AboutCompanyPage() {
         </div>
       </section>
 
+      {/* Statistics */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-6 md:px-12">
+          <div className="flex justify-center gap-16 md:gap-24">
+            <div className="text-center">
+              <p className="font-display text-3xl md:text-4xl font-bold text-[#0A192F] mb-2">
+                16+
+              </p>
+              <p className="text-slate-500 text-sm">Lat doświadczenia</p>
+            </div>
+            <div className="text-center">
+              <p className="font-display text-3xl md:text-4xl font-bold text-[#0A192F] mb-2 flex items-center justify-center gap-1">
+                4.9 <Star className="w-6 h-6 text-[#D4AF37] fill-[#D4AF37]" />
+              </p>
+              <p className="text-slate-500 text-sm">Ocena Google</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Mission & Vision */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <div className="grid lg:grid-cols-2 gap-16">
             {/* Mission */}
             <div data-testid="mission-section">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-[#0A192F] rounded-sm flex items-center justify-center">
+                <div className="w-12 h-12 bg-[#0A192F] rounded-xl flex items-center justify-center">
                   <Target className="w-6 h-6 text-[#D4AF37]" />
                 </div>
                 <h2 className="font-display text-2xl font-bold text-[#0A192F]">
@@ -56,7 +76,7 @@ export default function AboutCompanyPage() {
             {/* Vision */}
             <div data-testid="vision-section">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-[#0A192F] rounded-sm flex items-center justify-center">
+                <div className="w-12 h-12 bg-[#0A192F] rounded-xl flex items-center justify-center">
                   <Shield className="w-6 h-6 text-[#D4AF37]" />
                 </div>
                 <h2 className="font-display text-2xl font-bold text-[#0A192F]">
@@ -78,7 +98,7 @@ export default function AboutCompanyPage() {
       </section>
 
       {/* Values */}
-      <section className="py-24 bg-slate-50">
+      <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <div className="text-center mb-16">
             <p className="font-mono text-[#D4AF37] text-xs tracking-widest mb-4">
@@ -115,9 +135,9 @@ export default function AboutCompanyPage() {
               <div
                 key={index}
                 data-testid={`value-card-${index}`}
-                className="bg-white p-8 rounded-sm border border-slate-100 card-hover"
+                className="bg-slate-50 p-8 rounded-xl border border-slate-100 card-hover"
               >
-                <div className="w-12 h-12 bg-[#0A192F] rounded-sm flex items-center justify-center mb-5">
+                <div className="w-12 h-12 bg-[#0A192F] rounded-xl flex items-center justify-center mb-5">
                   <value.icon className="w-6 h-6 text-[#D4AF37]" />
                 </div>
                 <h3 className="font-display text-xl font-semibold text-[#0A192F] mb-3">
@@ -133,7 +153,7 @@ export default function AboutCompanyPage() {
       </section>
 
       {/* Regulatory Compliance */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
@@ -144,7 +164,7 @@ export default function AboutCompanyPage() {
                 Działamy zgodnie z prawem
               </h2>
               <p className="text-slate-600 leading-relaxed mb-8">
-                Wealth Advisor działa w pełnej zgodności z polskimi i europejskimi 
+                Investment Partners działa w pełnej zgodności z polskimi i europejskimi 
                 regulacjami dotyczącymi usług finansowych. Dbamy o najwyższe 
                 standardy ochrony klientów.
               </p>
@@ -165,7 +185,7 @@ export default function AboutCompanyPage() {
               </div>
             </div>
 
-            <div className="bg-[#0A192F] p-10 rounded-sm">
+            <div className="bg-[#0A192F] p-10 rounded-xl">
               <h3 className="font-display text-2xl font-semibold text-white mb-6">
                 Gwarancje dla klienta
               </h3>
@@ -191,27 +211,6 @@ export default function AboutCompanyPage() {
                 ))}
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Statistics */}
-      <section className="py-20 bg-slate-50">
-        <div className="max-w-7xl mx-auto px-6 md:px-12">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            {[
-              { number: "2020", label: "Rok założenia" },
-              { number: "500+", label: "Obsłużonych klientów" },
-              { number: "100M+", label: "PLN aktywów pod doradztw" },
-              { number: "98%", label: "Satysfakcji klientów" }
-            ].map((stat, index) => (
-              <div key={index} data-testid={`company-stat-${index}`}>
-                <p className="font-display text-3xl md:text-4xl font-bold text-[#0A192F] mb-2">
-                  {stat.number}
-                </p>
-                <p className="text-slate-500 text-sm">{stat.label}</p>
-              </div>
-            ))}
           </div>
         </div>
       </section>
