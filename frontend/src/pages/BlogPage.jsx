@@ -204,7 +204,7 @@ export default function BlogPage() {
               Chcesz więcej wiedzy?
             </h2>
             <p className="text-slate-400 max-w-xl mx-auto mb-8">
-              Umów się na spotkanie, a opowiem Ci więcej o strategiach 
+              Umów się na spotkanie, a&nbsp;opowiem Ci więcej o&nbsp;strategiach 
               budowania majątku dopasowanych do Twojej sytuacji.
             </p>
             <Link to="/umow-spotkanie">

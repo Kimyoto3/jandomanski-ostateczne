@@ -165,7 +165,7 @@ export default function AboutCompanyPage() {
               </h2>
               <p className="text-slate-600 leading-relaxed mb-8">
                 Investment Partners działa w&nbsp;pełnej zgodności z&nbsp;polskimi i&nbsp;europejskimi 
-                regulacjami dotyczącymi usług finansowych. Dbamy o najwyższe 
+                regulacjami dotyczącymi usług finansowych. Dbamy o&nbsp;najwyższe 
                 standardy ochrony klientów.
               </p>
 
