@@ -35,7 +35,7 @@ export const Footer = () => {
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed">
               Profesjonalne doradztwo finansowe dla osób, które cenią 
-              długoterminowe bezpieczeństwo i świadome budowanie majątku.
+              długoterminowe bezpieczeństwo i&nbsp;świadome budowanie majątku.
             </p>
             <p className="text-[#D4AF37] font-mono text-xs tracking-wider">
               EST. 2020 • OPOLE
