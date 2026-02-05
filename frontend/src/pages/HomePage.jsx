@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Shield, TrendingUp, Users, Award, ChevronRight, Clock, BookOpen, Target } from "lucide-react";
+import { ArrowRight, Shield, TrendingUp, Users, Award, ChevronRight, Clock, BookOpen, Target, Search, FileText, RefreshCw } from "lucide-react";
 
 export default function HomePage() {
   return (
