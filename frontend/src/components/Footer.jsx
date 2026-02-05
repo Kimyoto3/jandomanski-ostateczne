@@ -25,13 +25,12 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand Column */}
           <div className="space-y-6">
-            <Link to="/" className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-[#D4AF37] rounded-sm flex items-center justify-center">
-                <span className="text-[#0A192F] font-display text-xl font-bold">W</span>
-              </div>
-              <span className="font-display text-xl font-semibold">
-                Wealth Advisor
-              </span>
+            <Link to="/" className="flex items-center">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_invest-wisely-20/artifacts/5jz7992j_logo%20planowanie%20finansowe.png" 
+                alt="Domański - Planowanie Finansowe" 
+                className="h-14 w-auto brightness-0 invert"
+              />
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed">
               Profesjonalne doradztwo finansowe dla osób, które cenią 

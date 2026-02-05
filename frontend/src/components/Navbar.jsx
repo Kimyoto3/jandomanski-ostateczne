@@ -43,14 +43,13 @@ export const Navbar = () => {
           <Link
             to="/"
             data-testid="nav-logo"
-            className="flex items-center gap-3"
+            className="flex items-center"
           >
-            <div className="w-10 h-10 bg-[#0A192F] rounded-sm flex items-center justify-center">
-              <span className="text-[#D4AF37] font-display text-xl font-bold">W</span>
-            </div>
-            <span className="font-display text-xl font-semibold text-[#0A192F] hidden sm:block">
-              Wealth Advisor
-            </span>
+            <img 
+              src="https://customer-assets.emergentagent.com/job_invest-wisely-20/artifacts/5jz7992j_logo%20planowanie%20finansowe.png" 
+              alt="Domański - Planowanie Finansowe" 
+              className="h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
