@@ -64,10 +64,10 @@ export default function AboutCompanyPage() {
               <p className="text-slate-600 leading-relaxed mb-6">
                 Dostarczamy profesjonalne, niezależne doradztwo finansowe, 
                 które pomaga naszym klientom podejmować świadome decyzje 
-                i budować trwałe fundamenty finansowego bezpieczeństwa.
+                i&nbsp;budować trwałe fundamenty finansowego bezpieczeństwa.
               </p>
               <p className="text-slate-600 leading-relaxed">
-                Wierzymy, że każdy zasługuje na dostęp do wiedzy i narzędzi, 
+                Wierzymy, że każdy zasługuje na dostęp do wiedzy i&nbsp;narzędzi, 
                 które pozwalają efektywnie zarządzać majątkiem — niezależnie 
                 od jego wielkości.
               </p>
@@ -86,7 +86,7 @@ export default function AboutCompanyPage() {
               <p className="text-slate-600 leading-relaxed mb-6">
                 Chcemy być zaufanym partnerem finansowym dla pokoleń polskich 
                 rodzin — firmą, która jest synonimem integralności, kompetencji 
-                i długoterminowego myślenia.
+                i&nbsp;długoterminowego myślenia.
               </p>
               <p className="text-slate-600 leading-relaxed">
                 Dążymy do świata, w którym edukacja finansowa jest powszechna, 
@@ -114,17 +114,17 @@ export default function AboutCompanyPage() {
               {
                 icon: Shield,
                 title: "Integralność",
-                desc: "Działamy zawsze w najlepszym interesie klienta. Przejrzystość i uczciwość to fundament naszej pracy."
+                desc: "Działamy zawsze w&nbsp;najlepszym interesie klienta. Przejrzystość i&nbsp;uczciwość to fundament naszej pracy."
               },
               {
                 icon: Users,
                 title: "Partnerstwo",
-                desc: "Budujemy długoterminowe relacje oparte na zaufaniu i wzajemnym szacunku."
+                desc: "Budujemy długoterminowe relacje oparte na zaufaniu i&nbsp;wzajemnym szacunku."
               },
               {
                 icon: Target,
                 title: "Profesjonalizm",
-                desc: "Ciągle podnosimy kwalifikacje i stosujemy najwyższe standardy branżowe."
+                desc: "Ciągle podnosimy kwalifikacje i&nbsp;stosujemy najwyższe standardy branżowe."
               },
               {
                 icon: Scale,
@@ -164,7 +164,7 @@ export default function AboutCompanyPage() {
                 Działamy zgodnie z prawem
               </h2>
               <p className="text-slate-600 leading-relaxed mb-8">
-                Investment Partners działa w pełnej zgodności z polskimi i europejskimi 
+                Investment Partners działa w&nbsp;pełnej zgodności z&nbsp;polskimi i&nbsp;europejskimi 
                 regulacjami dotyczącymi usług finansowych. Dbamy o najwyższe 
                 standardy ochrony klientów.
               </p>
@@ -193,7 +193,7 @@ export default function AboutCompanyPage() {
                 {[
                   {
                     title: "Poufność",
-                    desc: "Wszystkie dane klientów są chronione i przetwarzane zgodnie z RODO."
+                    desc: "Wszystkie dane klientów są chronione i&nbsp;przetwarzane zgodnie z&nbsp;RODO."
                   },
                   {
                     title: "Transparentność",
