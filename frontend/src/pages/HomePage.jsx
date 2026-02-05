@@ -196,6 +196,61 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Proces działania */}
+      <section className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-6 md:px-12">
+          <div className="text-center mb-16">
+            <p className="font-mono text-[#D4AF37] text-xs tracking-widest mb-4">
+              JAK DZIAŁAM
+            </p>
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-[#0A192F]">
+              Proces działania
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              {
+                icon: Users,
+                title: "Usługa",
+                desc: <>Niezobowiązujące spotkanie, podczas którego omawiane są <strong className="text-[#0A192F]">zasady współpracy</strong>. Wspólnie oceniamy, czy taka forma wsparcia <strong className="text-[#0A192F]">ma sens</strong> w&nbsp;danej sytuacji.</>
+              },
+              {
+                icon: Search,
+                title: "Analiza",
+                desc: <>Szczegółowe <strong className="text-[#0A192F]">przeanalizowanie sytuacji finansowej</strong> oraz identyfikacja możliwych kierunków i&nbsp;obszarów do uporządkowania lub poprawy.</>
+              },
+              {
+                icon: FileText,
+                title: "Doradztwo",
+                desc: <>Przekazanie spójnego <strong className="text-[#0A192F]">planu finansowego</strong> oraz omówienie konkretnych rekomendacji i&nbsp;dalszych kroków, opartych na przeprowadzonej analizie.</>
+              },
+              {
+                icon: RefreshCw,
+                title: "Serwis",
+                desc: <>Regularne spotkania serwisowe, których celem jest <strong className="text-[#0A192F]">bieżące monitorowanie sytuacji finansowej</strong> i&nbsp;życiowej oraz aktualizowanie planu finansowego w&nbsp;odpowiedzi na zachodzące zmiany.</>
+              }
+            ].map((step, index) => (
+              <div
+                key={index}
+                data-testid={`process-step-${index}`}
+                className="bg-slate-50 p-8 rounded-xl border border-slate-100 card-hover"
+              >
+                <div className="w-12 h-12 bg-[#0A192F] rounded-xl flex items-center justify-center mb-5">
+                  <step.icon className="w-6 h-6 text-[#D4AF37]" />
+                </div>
+                <h3 className="font-display text-xl font-semibold text-[#0A192F] mb-3">
+                  {step.title}
+                </h3>
+                <p className="text-slate-600 text-sm leading-relaxed">
+                  {step.desc}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Why Choose Me Section */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
