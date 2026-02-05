@@ -17,7 +17,7 @@ export default function AboutCompanyPage() {
             </h1>
             <p className="text-lg text-slate-600 leading-relaxed mb-6">
               Investment Partners to firma specjalizująca się w&nbsp;planowaniu finansowym, 
-              współpracująca z instytucjami finansowymi działającymi pod nadzorem 
+              współpracująca z&nbsp;instytucjami finansowymi działającymi pod nadzorem 
               Komisji Nadzoru Finansowego. W ramach tej współpracy działam jako radca majątkowy.
             </p>
             <p className="font-mono text-[#D4AF37] text-xs tracking-widest mb-4">
@@ -90,7 +90,7 @@ export default function AboutCompanyPage() {
               </p>
               <p className="text-slate-600 leading-relaxed">
                 Dążymy do świata, w&nbsp;którym edukacja finansowa jest powszechna, 
-                a każdy może z pewnością planować swoją przyszłość.
+                a&nbsp;każdy może z&nbsp;pewnością planować swoją przyszłość.
               </p>
             </div>
           </div>
@@ -161,7 +161,7 @@ export default function AboutCompanyPage() {
                 ZGODNOŚĆ Z PRZEPISAMI
               </p>
               <h2 className="font-display text-3xl font-bold text-[#0A192F] mb-6">
-                Działamy zgodnie z prawem
+                Działamy zgodnie z&nbsp;prawem
               </h2>
               <p className="text-slate-600 leading-relaxed mb-8">
                 Investment Partners działa w&nbsp;pełnej zgodności z&nbsp;polskimi i&nbsp;europejskimi 
@@ -172,8 +172,8 @@ export default function AboutCompanyPage() {
               <div className="space-y-4">
                 {[
                   "Rejestracja w&nbsp;KNF jako agent firmy inwestycyjnej",
-                  "Zgodność z dyrektywą MiFID II",
-                  "Polityka ochrony danych zgodna z RODO",
+                  "Zgodność z&nbsp;dyrektywą MiFID II",
+                  "Polityka ochrony danych zgodna z&nbsp;RODO",
                   "Ubezpieczenie OC działalności zawodowej",
                   "Regularne szkolenia compliance"
                 ].map((item, index) => (

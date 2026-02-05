@@ -23,7 +23,7 @@ export default function HomePage() {
               PLANOWANIE FINANSOWE • OPOLE
             </p>
             <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl text-white font-bold leading-tight mb-6 animate-fade-in-up animation-delay-100">
-              Buduj majątek z perspektywą na lata
+              Buduj majątek z&nbsp;perspektywą na lata
             </h1>
             <p className="text-slate-300 text-base md:text-lg leading-relaxed mb-10 animate-fade-in-up animation-delay-200">
               Pomagam klientom w&nbsp;podejmowaniu świadomych decyzji finansowych, 
@@ -218,7 +218,7 @@ export default function HomePage() {
                   {
                     icon: Award,
                     title: "Certyfikowany doradca",
-                    desc: "Licencjonowany doradca z 15-letnim doświadczeniem"
+                    desc: "Licencjonowany doradca z&nbsp;15-letnim doświadczeniem"
                   },
                   {
                     icon: Users,
