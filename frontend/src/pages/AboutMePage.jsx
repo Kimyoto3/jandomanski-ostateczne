@@ -43,14 +43,14 @@ export default function AboutMePage() {
               <p className="text-slate-600 leading-relaxed mb-6">
                 Od ponad 15 lat pomagam klientom w budowaniu długoterminowego 
                 bezpieczeństwa finansowego. Moja filozofia opiera się na głębokim 
-                zrozumieniu indywidualnych potrzeb każdego klienta i tworzeniu 
+                zrozumieniu indywidualnych potrzeb każdego klienta i&nbsp;tworzeniu 
                 spersonalizowanych strategii, które prowadzą do realnych rezultatów.
               </p>
               <p className="text-slate-600 leading-relaxed mb-8">
                 Wierzę, że prawdziwe doradztwo finansowe to partnerstwo — relacja 
-                oparta na zaufaniu, przejrzystości i wspólnych celach. Nie oferuję 
+                oparta na zaufaniu, przejrzystości i&nbsp;wspólnych celach. Nie oferuję 
                 gotowych rozwiązań. Każdą strategię buduję od podstaw, uwzględniając 
-                Twoje życiowe cele, tolerancję ryzyka i horyzont czasowy.
+                Twoje życiowe cele, tolerancję ryzyka i&nbsp;horyzont czasowy.
               </p>
               <Link to="/umow-spotkanie">
                 <Button
@@ -126,7 +126,7 @@ export default function AboutMePage() {
               <div className="space-y-6">
                 {[
                   {
-                    title: "Założyciel i Główny Doradca",
+                    title: "Założyciel i&nbsp;Główny Doradca",
                     company: "Wealth Advisor",
                     period: "2020 - obecnie"
                   },
@@ -169,7 +169,7 @@ export default function AboutMePage() {
               </div>
             </div>
             <h2 className="font-display text-3xl font-bold text-[#0A192F] mb-4">
-              Certyfikaty i licencje
+              Certyfikaty i&nbsp;licencje
             </h2>
             <p className="text-slate-600 max-w-xl mx-auto">
               Regularnie podnoszę swoje kwalifikacje, aby oferować klientom 
@@ -213,7 +213,7 @@ export default function AboutMePage() {
             </h2>
             <blockquote className="text-xl text-slate-300 leading-relaxed italic mb-8">
               "Prawdziwe bogactwo to nie tylko liczby na koncie. To spokój ducha, 
-              bezpieczeństwo rodziny i wolność podejmowania życiowych decyzji 
+              bezpieczeństwo rodziny i&nbsp;wolność podejmowania życiowych decyzji 
               bez finansowych ograniczeń. Moim celem jest pomóc Ci to osiągnąć."
             </blockquote>
             <p className="text-[#D4AF37] font-display font-semibold">
@@ -231,7 +231,7 @@ export default function AboutMePage() {
           </h2>
           <p className="text-slate-600 max-w-xl mx-auto mb-8">
             Umów się na niezobowiązującą rozmowę. Chętnie odpowiem na Twoje 
-            pytania i przedstawię, jak mogę pomóc.
+            pytania i&nbsp;przedstawię, jak mogę pomóc.
           </p>
           <Link to="/umow-spotkanie">
             <Button
