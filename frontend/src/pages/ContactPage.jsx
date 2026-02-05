@@ -102,7 +102,7 @@ export default function ContactPage() {
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <Label htmlFor="name" className="text-sm font-medium text-slate-700 mb-2 block">
-                        Imię i nazwisko *
+                        Imię i&nbsp;nazwisko *
                       </Label>
                       <Input
                         id="name"

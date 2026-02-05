@@ -66,8 +66,8 @@ export default function BlogPage() {
               Edukacja finansowa
             </h1>
             <p className="text-slate-600 text-lg leading-relaxed">
-              Artykuły, poradniki i analizy, które pomogą Ci lepiej zrozumieć 
-              świat finansów i podejmować świadome decyzje inwestycyjne.
+              Artykuły, poradniki i&nbsp;analizy, które pomogą Ci lepiej zrozumieć 
+              świat finansów i&nbsp;podejmować świadome decyzje inwestycyjne.
             </p>
           </div>
         </div>

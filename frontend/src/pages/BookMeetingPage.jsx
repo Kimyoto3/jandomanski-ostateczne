@@ -162,7 +162,7 @@ export default function BookMeetingPage() {
             </h1>
             <p className="text-slate-600 text-lg leading-relaxed">
               Wybierz dogodny termin na bezpłatną konsultację. Podczas spotkania 
-              omówimy Twoją sytuację finansową i cele.
+              omówimy Twoją sytuację finansową i&nbsp;cele.
             </p>
           </div>
         </div>
@@ -261,7 +261,7 @@ export default function BookMeetingPage() {
                 <div className="space-y-6">
                   <div>
                     <Label htmlFor="name" className="text-sm font-medium text-slate-700 mb-2 block">
-                      Imię i nazwisko *
+                      Imię i&nbsp;nazwisko *
                     </Label>
                     <div className="relative">
                       <User className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
