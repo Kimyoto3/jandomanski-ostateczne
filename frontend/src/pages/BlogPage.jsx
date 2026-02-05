@@ -198,25 +198,23 @@ export default function BlogPage() {
 
       {/* Newsletter CTA */}
       <section className="py-20 bg-slate-50">
-        <div className="max-w-7xl mx-auto px-6 md:px-12">
-          <div className="bg-[#0A192F] rounded-sm p-10 md:p-16 text-center">
-            <h2 className="font-display text-2xl md:text-3xl font-bold text-white mb-4">
-              Chcesz więcej wiedzy?
-            </h2>
-            <p className="text-slate-400 max-w-xl mx-auto mb-8">
-              Umów się na spotkanie, a&nbsp;opowiem Ci więcej o&nbsp;strategiach 
-              budowania majątku dopasowanych do Twojej sytuacji.
-            </p>
-            <Link to="/umow-spotkanie">
-              <Button
-                data-testid="blog-cta-button"
-                className="bg-[#D4AF37] text-[#0A192F] hover:bg-white transition-all duration-300 rounded-xl px-8 py-6 font-semibold"
-              >
-                Umów bezpłatną konsultację
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-            </Link>
-          </div>
+        <div className="max-w-7xl mx-auto px-6 md:px-12 text-center">
+          <h2 className="font-display text-2xl md:text-3xl font-bold text-[#0A192F] mb-4">
+            Chcesz więcej wiedzy?
+          </h2>
+          <p className="text-slate-600 max-w-xl mx-auto mb-8">
+            Umów się na spotkanie, a&nbsp;opowiem Ci więcej o&nbsp;strategiach 
+            budowania majątku dopasowanych do Twojej sytuacji.
+          </p>
+          <Link to="/umow-spotkanie">
+            <Button
+              data-testid="blog-cta-button"
+              className="bg-[#0A192F] text-white hover:bg-[#D4AF37] hover:text-[#0A192F] transition-all duration-300 rounded-xl px-8 py-6 font-semibold"
+            >
+              Umów bezpłatną konsultację
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+          </Link>
         </div>
       </section>
     </div>
