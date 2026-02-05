@@ -37,9 +37,6 @@ export const Footer = () => {
               Profesjonalne doradztwo finansowe dla osób, które cenią 
               długoterminowe bezpieczeństwo i&nbsp;świadome budowanie majątku.
             </p>
-            <p className="text-[#D4AF37] font-mono text-xs tracking-wider">
-              EST. 2020 • OPOLE
-            </p>
           </div>
 
           {/* Quick Links */}
@@ -107,18 +104,10 @@ export const Footer = () => {
       {/* Bottom Bar */}
       <div className="border-t border-slate-800">
         <div className="max-w-7xl mx-auto px-6 md:px-12 py-6">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="flex justify-center">
             <p className="text-slate-500 text-xs">
               © {currentYear} Wealth Advisor. Wszelkie prawa zastrzeżone.
             </p>
-            <div className="flex gap-6">
-              <Link to="/kontakt" className="text-slate-500 hover:text-[#D4AF37] transition-colors text-xs">
-                Polityka prywatności
-              </Link>
-              <Link to="/kontakt" className="text-slate-500 hover:text-[#D4AF37] transition-colors text-xs">
-                Regulamin
-              </Link>
-            </div>
           </div>
         </div>
       </div>
