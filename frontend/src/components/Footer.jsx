@@ -29,7 +29,7 @@ export const Footer = () => {
               <img 
                 src="https://customer-assets.emergentagent.com/job_invest-wisely-20/artifacts/5jz7992j_logo%20planowanie%20finansowe.png" 
                 alt="Domański - Planowanie Finansowe" 
-                className="h-14 w-auto brightness-0 invert"
+                className="h-12 w-auto"
               />
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed">
@@ -108,7 +108,7 @@ export const Footer = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-slate-500 text-xs">
-              © {currentYear} Wealth Advisor. Wszelkie prawa zastrzeżone.
+              © {currentYear} Domański Planowanie Finansowe. Wszelkie prawa zastrzeżone.
             </p>
             <div className="flex gap-6">
               <Link to="/kontakt" className="text-slate-500 hover:text-[#D4AF37] transition-colors text-xs">
