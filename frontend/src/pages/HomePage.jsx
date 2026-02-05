@@ -208,27 +208,27 @@ export default function HomePage() {
                 Partnerstwo oparte na zaufaniu
               </h2>
               <p className="text-slate-600 leading-relaxed mb-8">
-                Każda współpraca zaczyna się od głębokiego zrozumienia Twoich celów, 
+                Każda współpraca zaczyna się od głębokiego <strong className="text-[#0A192F]">zrozumienia Twoich celów</strong>, 
                 wartości i&nbsp;sytuacji życiowej. Nie oferuję standardowych rozwiązań — 
-                tworzę spersonalizowane strategie, które ewoluują wraz z&nbsp;Tobą.
+                tworzę <strong className="text-[#0A192F]">spersonalizowane</strong> strategie, które ewoluują wraz z&nbsp;Tobą.
               </p>
 
               <div className="space-y-6">
                 {[
                   {
                     icon: Award,
-                    title: "Certyfikowany doradca",
-                    desc: "Licencjonowany doradca z&nbsp;15-letnim doświadczeniem"
+                    title: "Jasny proces współpracy",
+                    desc: "Przejrzysty system pracy: usługa, analiza, doradztwo i&nbsp;stały serwis."
                   },
                   {
                     icon: Users,
                     title: "Indywidualne podejście",
-                    desc: "Każdy klient otrzymuje dedykowaną uwagę i&nbsp;czas"
+                    desc: "Rozwiązania dopasowane do sytuacji życiowej, nie gotowe schematy."
                   },
                   {
                     icon: Clock,
-                    title: "Perspektywa długoterminowa",
-                    desc: "Fokus na trwałe rezultaty, nie krótkoterminowe zyski"
+                    title: "Stała opieka",
+                    desc: "Regularne spotkania i&nbsp;aktualizacja planu wraz ze zmianami."
                   }
                 ].map((item, index) => (
                   <div key={index} className="flex items-start gap-4">
