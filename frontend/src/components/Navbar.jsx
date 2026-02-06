@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { Menu, X } from "lucide-react";
 
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
@@ -13,6 +15,10 @@ export const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  useEffect(() => {
+    setIsMobileMenuOpen(false);
+  }, [location]);
 
   const navLinks = [
     { href: "/", label: "Strona główna" },
@@ -67,7 +73,7 @@ export const Navbar = () => {
             ))}
           </div>
 
-          {/* CTA Button */}
+          {/* Desktop CTA Button */}
           <div className="hidden lg:block">
             <Link to="/umow-spotkanie">
               <Button
@@ -79,18 +85,50 @@ export const Navbar = () => {
             </Link>
           </div>
 
-          {/* Mobile CTA Button - simple, no dropdown */}
-          <div className="lg:hidden">
-            <Link to="/umow-spotkanie">
-              <Button
-                data-testid="mobile-cta-button"
-                className="bg-[#0A192F] text-white hover:bg-[#D4AF37] hover:text-[#0A192F] transition-all duration-300 rounded-xl px-4 py-2 text-sm font-medium"
-              >
-                Umów spotkanie
-              </Button>
-            </Link>
-          </div>
+          {/* Mobile Menu Button (Hamburger) */}
+          <button
+            data-testid="mobile-menu-button"
+            className="lg:hidden p-2 text-[#0A192F]"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
         </nav>
+
+        {/* Mobile Menu */}
+        {isMobileMenuOpen && (
+          <div
+            data-testid="mobile-menu"
+            className="lg:hidden bg-white border-t border-slate-100 animate-fade-in"
+          >
+            <div className="py-4 space-y-1">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  to={link.href}
+                  data-testid={`mobile-nav-link-${link.href.replace("/", "") || "home"}`}
+                  className={`block px-4 py-3 text-sm font-medium transition-colors ${
+                    isActive(link.href)
+                      ? "text-[#0A192F] bg-slate-50"
+                      : "text-slate-600 hover:text-[#0A192F] hover:bg-slate-50"
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              ))}
+              <div className="px-4 pt-3">
+                <Link to="/umow-spotkanie">
+                  <Button
+                    data-testid="mobile-cta-button"
+                    className="w-full bg-[#0A192F] text-white hover:bg-[#D4AF37] hover:text-[#0A192F] transition-all duration-300 rounded-xl"
+                  >
+                    Umów spotkanie
+                  </Button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </header>
   );
