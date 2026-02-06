@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Shield, Target, Users, Scale, ArrowRight, CheckCircle, Star } from "lucide-react";
+import { Shield, Target, Users, Scale, ArrowRight, CheckCircle, Star, TrendingUp, ShieldCheck, Flag, Zap } from "lucide-react";
 
 export default function AboutCompanyPage() {
   return (
@@ -15,13 +15,13 @@ export default function AboutCompanyPage() {
             <h1 className="font-display text-4xl md:text-5xl font-bold text-[#0A192F] mb-6">
               Investment Partners
             </h1>
-            <p className="text-lg text-slate-600 leading-relaxed mb-6">
-              Investment Partners to firma specjalizująca się w planowaniu finansowym, 
-              współpracująca z instytucjami finansowymi działającymi pod nadzorem 
-              Komisji Nadzoru Finansowego. W ramach tej współpracy działam jako radca majątkowy.
+            <p className="text-lg text-slate-600 leading-relaxed mb-4">
+              Investment Partners to firma specjalizująca się 
+              w <strong className="text-[#0A192F]">planowaniu finansowym</strong>, współpracująca 
+              z instytucjami finansowymi działającymi pod nadzorem <strong className="text-[#0A192F]">Komisji Nadzoru Finansowego</strong>.
             </p>
-            <p className="font-mono text-[#D4AF37] text-xs tracking-widest mb-4">
-              EST. 2020 • OPOLE, POLSKA
+            <p className="text-lg text-slate-600 leading-relaxed">
+              W ramach tej współpracy działam jako <strong className="text-[#0A192F]">planer finansowy</strong>.
             </p>
           </div>
         </div>
@@ -47,52 +47,76 @@ export default function AboutCompanyPage() {
         </div>
       </section>
 
-      {/* Mission & Vision */}
+      {/* Filozofia firmy */}
       <section className="py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
-          <div className="grid lg:grid-cols-2 gap-16">
-            {/* Mission */}
-            <div data-testid="mission-section">
-              <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-[#0A192F] rounded-xl flex items-center justify-center">
-                  <Target className="w-6 h-6 text-[#D4AF37]" />
-                </div>
-                <h2 className="font-display text-2xl font-bold text-[#0A192F]">
-                  Nasza misja
-                </h2>
-              </div>
-              <p className="text-slate-600 leading-relaxed mb-6">
-                Dostarczamy profesjonalne, niezależne doradztwo finansowe, 
-                które pomaga naszym klientom podejmować świadome decyzje 
-                i budować trwałe fundamenty finansowego bezpieczeństwa.
-              </p>
-              <p className="text-slate-600 leading-relaxed">
-                Wierzymy, że każdy zasługuje na dostęp do wiedzy i narzędzi, 
-                które pozwalają efektywnie zarządzać majątkiem — niezależnie 
-                od jego wielkości.
-              </p>
-            </div>
+          <div className="text-center mb-16">
+            <p className="font-mono text-[#D4AF37] text-xs tracking-widest mb-4">
+              NASZE PODEJŚCIE
+            </p>
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-[#0A192F] mb-6">
+              Filozofia firmy
+            </h2>
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+              Pomagamy Ci poukładać kwestie finansowe, abyś mógł podejmować bardziej świadome decyzje.
+            </p>
+          </div>
 
-            {/* Vision */}
-            <div data-testid="vision-section">
-              <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-[#0A192F] rounded-xl flex items-center justify-center">
-                  <Shield className="w-6 h-6 text-[#D4AF37]" />
+          {/* 2x2 Cards Grid */}
+          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            {[
+              {
+                icon: TrendingUp,
+                title: "Bogacenie",
+                desc: "Systematyczne budowanie majątku krok po kroku.",
+                image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=400&h=200&fit=crop"
+              },
+              {
+                icon: ShieldCheck,
+                title: "Bezpieczeństwo",
+                desc: "Ochrona finansów przed nieprzewidzianymi zdarzeniami.",
+                image: "https://images.unsplash.com/photo-1560472355-536de3962603?w=400&h=200&fit=crop"
+              },
+              {
+                icon: Flag,
+                title: "Cele długoterminowe",
+                desc: "Plan na przyszłość podzielony na realne etapy.",
+                image: "https://images.unsplash.com/photo-1434626881859-194d67b2b86f?w=400&h=200&fit=crop"
+              },
+              {
+                icon: Zap,
+                title: "Cele krótkoterminowe",
+                desc: "Konkretne działania na najbliższe miesiące.",
+                image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=200&fit=crop"
+              }
+            ].map((item, index) => (
+              <div
+                key={index}
+                data-testid={`philosophy-card-${index}`}
+                className="bg-white rounded-xl border border-slate-100 overflow-hidden card-hover"
+              >
+                <div className="h-40 overflow-hidden">
+                  <img 
+                    src={item.image} 
+                    alt={item.title}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
-                <h2 className="font-display text-2xl font-bold text-[#0A192F]">
-                  Nasza wizja
-                </h2>
+                <div className="p-6">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-10 h-10 bg-[#0A192F] rounded-xl flex items-center justify-center">
+                      <item.icon className="w-5 h-5 text-[#D4AF37]" />
+                    </div>
+                    <h3 className="font-display text-xl font-semibold text-[#0A192F]">
+                      {item.title}
+                    </h3>
+                  </div>
+                  <p className="text-slate-600 text-sm">
+                    {item.desc}
+                  </p>
+                </div>
               </div>
-              <p className="text-slate-600 leading-relaxed mb-6">
-                Chcemy być zaufanym partnerem finansowym dla pokoleń polskich 
-                rodzin — firmą, która jest synonimem integralności, kompetencji 
-                i długoterminowego myślenia.
-              </p>
-              <p className="text-slate-600 leading-relaxed">
-                Dążymy do świata, w którym edukacja finansowa jest powszechna, 
-                a każdy może z pewnością planować swoją przyszłość.
-              </p>
-            </div>
+            ))}
           </div>
         </div>
       </section>
