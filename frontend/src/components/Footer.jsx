@@ -12,7 +12,7 @@ export const Footer = () => {
   ];
 
   const serviceLinks = [
-    { href: "/umow-spotkanie", label: "Doradztwo inwestycyjne" },
+    { href: "/umow-spotkanie", label: "Optymalizacja umów" },
     { href: "/umow-spotkanie", label: "Planowanie emerytalne" },
     { href: "/umow-spotkanie", label: "Zarządzanie majątkiem" },
     { href: "/umow-spotkanie", label: "Edukacja finansowa" },
@@ -27,11 +27,16 @@ export const Footer = () => {
           <div className="space-y-6">
             <Link to="/" className="flex items-center gap-3">
               <div className="w-10 h-10 bg-[#D4AF37] rounded-sm flex items-center justify-center">
-                <span className="text-[#0A192F] font-display text-xl font-bold">W</span>
+                <span className="text-[#0A192F] font-display text-xl font-bold">JD</span>
               </div>
-              <span className="font-display text-xl font-semibold">
-                Wealth Advisor
-              </span>
+              <div>
+                <span className="font-display text-xl font-semibold block leading-tight">
+                  Jan Domański
+                </span>
+                <span className="text-xs text-slate-400">
+                  Planer finansowy
+                </span>
+              </div>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed">
               Profesjonalne doradztwo finansowe dla osób, które cenią 
@@ -106,7 +111,7 @@ export const Footer = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 py-6">
           <div className="flex justify-center">
             <p className="text-slate-500 text-xs">
-              © {currentYear} Wealth Advisor. Wszelkie prawa zastrzeżone.
+              © {currentYear} Jan Domański. Wszelkie prawa zastrzeżone.
             </p>
           </div>
         </div>
