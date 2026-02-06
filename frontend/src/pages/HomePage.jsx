@@ -60,31 +60,31 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Trust Elements Section - Value Based */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6 md:px-12">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+      {/* Trust Elements Section - Value Based 2x2 */}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-6 md:px-12">
+          <div className="grid grid-cols-2 gap-8 md:gap-12">
             <div className="text-center">
-              <p className="font-display text-lg md:text-xl font-bold text-[#0A192F] mb-2">
-                Szeroki rynek finansowy
+              <p className="font-display text-lg md:text-xl font-bold text-[#0A192F] mb-1">
+                Szeroki rynek
               </p>
               <p className="text-slate-500 text-sm">Bez ograniczeń do jednej instytucji</p>
             </div>
             <div className="text-center">
-              <p className="font-display text-lg md:text-xl font-bold text-[#0A192F] mb-2">
-                Współpraca z Investment Partners
+              <p className="font-display text-lg md:text-xl font-bold text-[#0A192F] mb-1">
+                Investment Partners
               </p>
               <p className="text-slate-500 text-sm">Instytucjonalne zaplecze współpracy</p>
             </div>
             <div className="text-center">
-              <p className="font-display text-lg md:text-xl font-bold text-[#0A192F] mb-2">
-                Indywidualny plan finansowy
+              <p className="font-display text-lg md:text-xl font-bold text-[#0A192F] mb-1">
+                Plan finansowy
               </p>
               <p className="text-slate-500 text-sm">Dopasowany do sytuacji i celów</p>
             </div>
             <div className="text-center">
-              <p className="font-display text-lg md:text-xl font-bold text-[#0A192F] mb-2">
-                Stałe wsparcie i serwis
+              <p className="font-display text-lg md:text-xl font-bold text-[#0A192F] mb-1">
+                Stały serwis
               </p>
               <p className="text-slate-500 text-sm">Regularna aktualizacja planu</p>
             </div>
@@ -277,7 +277,7 @@ export default function HomePage() {
                   <img
                     src="https://customer-assets.emergentagent.com/job_invest-wisely-20/artifacts/pw4r7g7q_DSC00855.jpg"
                     alt="Jan Domański - Planer finansowy"
-                    className="w-full h-full object-cover object-center"
+                    className="w-full h-full object-cover object-top"
                   />
                 </div>
               </div>
@@ -295,7 +295,7 @@ export default function HomePage() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-[#0A192F] mb-1">Jasny proces współpracy</h4>
-                    <p className="text-slate-500 text-sm"><strong className="text-[#0A192F]">Przejrzysty</strong> system pracy: usługa, analiza, doradztwo i stały serwis.</p>
+                    <p className="text-slate-500 text-sm">Przejrzysty system pracy: usługa, analiza, doradztwo i stały serwis.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -304,7 +304,7 @@ export default function HomePage() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-[#0A192F] mb-1">Indywidualne podejście</h4>
-                    <p className="text-slate-500 text-sm">Rozwiązania <strong className="text-[#0A192F]">dopasowane</strong> do sytuacji życiowej, <strong className="text-[#0A192F]">nie</strong> gotowe schematy.</p>
+                    <p className="text-slate-500 text-sm">Rozwiązania dopasowane do sytuacji życiowej, nie gotowe schematy.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -313,7 +313,7 @@ export default function HomePage() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-[#0A192F] mb-1">Stała opieka</h4>
-                    <p className="text-slate-500 text-sm"><strong className="text-[#0A192F]">Regularne</strong> spotkania i <strong className="text-[#0A192F]">aktualizacja</strong> planu wraz ze zmianami.</p>
+                    <p className="text-slate-500 text-sm">Regularne spotkania i aktualizacja planu wraz ze zmianami.</p>
                   </div>
                 </div>
               </div>
