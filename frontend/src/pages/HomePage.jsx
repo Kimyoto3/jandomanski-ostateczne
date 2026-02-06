@@ -60,27 +60,34 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Trust Elements Section */}
+      {/* Trust Elements Section - Value Based */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {[
-              { number: "15+", label: "Lat doświadczenia" },
-              { number: "500+", label: "Zadowolonych klientów" },
-              { number: "100M+", label: "PLN zarządzanych aktywów" },
-              { number: "98%", label: "Wskaźnik retencji" },
-            ].map((stat, index) => (
-              <div
-                key={index}
-                data-testid={`trust-stat-${index}`}
-                className="text-center"
-              >
-                <p className="font-display text-3xl md:text-4xl font-bold text-[#0A192F] mb-2">
-                  {stat.number}
-                </p>
-                <p className="text-slate-500 text-sm">{stat.label}</p>
-              </div>
-            ))}
+            <div className="text-center">
+              <p className="font-display text-lg md:text-xl font-bold text-[#0A192F] mb-2">
+                Szeroki rynek finansowy
+              </p>
+              <p className="text-slate-500 text-sm">Bez ograniczeń do jednej instytucji</p>
+            </div>
+            <div className="text-center">
+              <p className="font-display text-lg md:text-xl font-bold text-[#0A192F] mb-2">
+                Współpraca z Investment Partners
+              </p>
+              <p className="text-slate-500 text-sm">Instytucjonalne zaplecze współpracy</p>
+            </div>
+            <div className="text-center">
+              <p className="font-display text-lg md:text-xl font-bold text-[#0A192F] mb-2">
+                Indywidualny plan finansowy
+              </p>
+              <p className="text-slate-500 text-sm">Dopasowany do sytuacji i celów</p>
+            </div>
+            <div className="text-center">
+              <p className="font-display text-lg md:text-xl font-bold text-[#0A192F] mb-2">
+                Stałe wsparcie i serwis
+              </p>
+              <p className="text-slate-500 text-sm">Regularna aktualizacja planu</p>
+            </div>
           </div>
         </div>
       </section>
@@ -106,10 +113,10 @@ export default function HomePage() {
             {/* Large Card */}
             <div
               data-testid="service-card-strategy"
-              className="lg:col-span-2 bg-white p-10 rounded-sm border border-slate-100 shadow-sm card-hover"
+              className="lg:col-span-2 bg-white p-10 rounded-xl border border-slate-100 shadow-sm card-hover"
             >
               <div className="flex items-start gap-6">
-                <div className="w-14 h-14 bg-[#0A192F] rounded-sm flex items-center justify-center flex-shrink-0">
+                <div className="w-14 h-14 bg-[#0A192F] rounded-xl flex items-center justify-center flex-shrink-0">
                   <TrendingUp className="w-7 h-7 text-[#D4AF37]" />
                 </div>
                 <div>
@@ -134,44 +141,44 @@ export default function HomePage() {
             {/* Regular Card */}
             <div
               data-testid="service-card-retirement"
-              className="bg-white p-8 rounded-sm border border-slate-100 shadow-sm card-hover"
+              className="bg-white p-8 rounded-xl border border-slate-100 shadow-sm card-hover"
             >
-              <div className="w-12 h-12 bg-[#0A192F] rounded-sm flex items-center justify-center mb-5">
+              <div className="w-12 h-12 bg-[#0A192F] rounded-xl flex items-center justify-center mb-5">
                 <Target className="w-6 h-6 text-[#D4AF37]" />
               </div>
               <h3 className="font-display text-xl font-semibold text-[#0A192F] mb-3">
                 Planowanie emerytalne
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed">
-                Tworzę długoterminowe strategie zabezpieczenia finansowego 
-                na okres po zakończeniu aktywności zawodowej.
+                Tworzę <strong className="text-[#0A192F]">długoterminowe</strong> strategie zabezpieczenia finansowego 
+                na okres po zakończeniu <strong className="text-[#0A192F]">aktywności zawodowej</strong>.
               </p>
             </div>
 
             {/* Regular Card */}
             <div
               data-testid="service-card-wealth"
-              className="bg-white p-8 rounded-sm border border-slate-100 shadow-sm card-hover"
+              className="bg-white p-8 rounded-xl border border-slate-100 shadow-sm card-hover"
             >
-              <div className="w-12 h-12 bg-[#0A192F] rounded-sm flex items-center justify-center mb-5">
+              <div className="w-12 h-12 bg-[#0A192F] rounded-xl flex items-center justify-center mb-5">
                 <Shield className="w-6 h-6 text-[#D4AF37]" />
               </div>
               <h3 className="font-display text-xl font-semibold text-[#0A192F] mb-3">
                 Ochrona majątku
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed">
-                Kompleksowe rozwiązania zabezpieczające Twój majątek 
-                przed ryzykami i nieprzewidzianymi zdarzeniami.
+                Kompleksowe rozwiązania <strong className="text-[#0A192F]">zabezpieczające</strong> Twój majątek 
+                przed ryzykami i <strong className="text-[#0A192F]">nieprzewidzianymi</strong> zdarzeniami.
               </p>
             </div>
 
             {/* Large Card */}
             <div
               data-testid="service-card-education"
-              className="lg:col-span-2 bg-[#0A192F] p-10 rounded-sm card-hover"
+              className="lg:col-span-2 bg-[#0A192F] p-10 rounded-xl card-hover"
             >
               <div className="flex items-start gap-6">
-                <div className="w-14 h-14 bg-[#D4AF37] rounded-sm flex items-center justify-center flex-shrink-0">
+                <div className="w-14 h-14 bg-[#D4AF37] rounded-xl flex items-center justify-center flex-shrink-0">
                   <BookOpen className="w-7 h-7 text-[#0A192F]" />
                 </div>
                 <div>
@@ -179,9 +186,9 @@ export default function HomePage() {
                     Edukacja finansowa
                   </h3>
                   <p className="text-slate-400 leading-relaxed mb-4">
-                    Wierzę, że świadomy klient podejmuje lepsze decyzje. 
-                    Oferuję materiały edukacyjne i konsultacje, które pomogą 
-                    Ci zrozumieć świat finansów i inwestycji.
+                    Wierzę, że <strong className="text-white">świadomy</strong> klient podejmuje lepsze decyzje. 
+                    Oferuję <strong className="text-white">materiały edukacyjne</strong> i konsultacje, które pomogą 
+                    Ci zrozumieć <strong className="text-white">świat finansów</strong> i inwestycji.
                   </p>
                   <Link 
                     to="/blog" 
@@ -252,16 +259,29 @@ export default function HomePage() {
       </section>
 
       {/* Why Choose Me Section */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div>
+            {/* Content - First on mobile */}
+            <div className="order-2 lg:order-1">
               <p className="font-mono text-[#D4AF37] text-xs tracking-widest mb-4">
                 DLACZEGO JA
               </p>
               <h2 className="font-display text-3xl md:text-4xl font-bold text-[#0A192F] mb-6">
                 Partnerstwo oparte na zaufaniu
               </h2>
+              
+              {/* Photo - Mobile only, between title and description */}
+              <div className="relative lg:hidden mb-8">
+                <div className="aspect-[4/3] bg-slate-200 rounded-xl overflow-hidden">
+                  <img
+                    src="https://customer-assets.emergentagent.com/job_invest-wisely-20/artifacts/pw4r7g7q_DSC00855.jpg"
+                    alt="Jan Domański - Planer finansowy"
+                    className="w-full h-full object-cover object-center"
+                  />
+                </div>
+              </div>
+              
               <p className="text-slate-600 leading-relaxed mb-8">
                 Każda współpraca zaczyna się od głębokiego <strong className="text-[#0A192F]">zrozumienia Twoich celów</strong>, 
                 wartości i sytuacji życiowej. Nie oferuję standardowych rozwiązań — 
@@ -269,46 +289,47 @@ export default function HomePage() {
               </p>
 
               <div className="space-y-6">
-                {[
-                  {
-                    icon: Award,
-                    title: "Jasny proces współpracy",
-                    desc: "Przejrzysty system pracy: usługa, analiza, doradztwo i stały serwis."
-                  },
-                  {
-                    icon: Users,
-                    title: "Indywidualne podejście",
-                    desc: "Rozwiązania dopasowane do sytuacji życiowej, nie gotowe schematy."
-                  },
-                  {
-                    icon: Clock,
-                    title: "Stała opieka",
-                    desc: "Regularne spotkania i aktualizacja planu wraz ze zmianami."
-                  }
-                ].map((item, index) => (
-                  <div key={index} className="flex items-start gap-4">
-                    <div className="w-10 h-10 bg-slate-100 rounded-sm flex items-center justify-center flex-shrink-0">
-                      <item.icon className="w-5 h-5 text-[#0A192F]" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-[#0A192F] mb-1">{item.title}</h4>
-                      <p className="text-slate-500 text-sm">{item.desc}</p>
-                    </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 bg-slate-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Award className="w-5 h-5 text-[#0A192F]" />
                   </div>
-                ))}
+                  <div>
+                    <h4 className="font-semibold text-[#0A192F] mb-1">Jasny proces współpracy</h4>
+                    <p className="text-slate-500 text-sm"><strong className="text-[#0A192F]">Przejrzysty</strong> system pracy: usługa, analiza, doradztwo i stały serwis.</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 bg-slate-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Users className="w-5 h-5 text-[#0A192F]" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-[#0A192F] mb-1">Indywidualne podejście</h4>
+                    <p className="text-slate-500 text-sm">Rozwiązania <strong className="text-[#0A192F]">dopasowane</strong> do sytuacji życiowej, <strong className="text-[#0A192F]">nie</strong> gotowe schematy.</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 bg-slate-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Clock className="w-5 h-5 text-[#0A192F]" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-[#0A192F] mb-1">Stała opieka</h4>
+                    <p className="text-slate-500 text-sm"><strong className="text-[#0A192F]">Regularne</strong> spotkania i <strong className="text-[#0A192F]">aktualizacja</strong> planu wraz ze zmianami.</p>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div className="relative">
-              <div className="aspect-[4/5] bg-slate-200 rounded-sm overflow-hidden">
+            {/* Photo - Desktop only */}
+            <div className="relative hidden lg:block order-1 lg:order-2">
+              <div className="aspect-[4/5] bg-slate-200 rounded-xl overflow-hidden">
                 <img
-                  src="https://customer-assets.emergentagent.com/job_invest-wisely-20/artifacts/n2h6zljh_DSC00839-2.jpg"
+                  src="https://customer-assets.emergentagent.com/job_invest-wisely-20/artifacts/pw4r7g7q_DSC00855.jpg"
                   alt="Jan Domański - Planer finansowy"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
               {/* Decorative element */}
-              <div className="absolute -bottom-6 -left-6 w-48 h-48 border-2 border-[#D4AF37] rounded-sm -z-10" />
+              <div className="absolute -bottom-6 -left-6 w-48 h-48 border-2 border-[#D4AF37] rounded-xl -z-10" />
             </div>
           </div>
         </div>
