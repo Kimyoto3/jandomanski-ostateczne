@@ -23,11 +23,11 @@ export default function HomePage() {
               PLANOWANIE FINANSOWE • OPOLE
             </p>
             <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl text-white font-bold leading-tight mb-6 animate-fade-in-up animation-delay-100">
-              Buduj majątek z&nbsp;perspektywą na lata
+              Buduj majątek z perspektywą na lata
             </h1>
             <p className="text-slate-300 text-base md:text-lg leading-relaxed mb-10 animate-fade-in-up animation-delay-200">
-              Pomagam klientom w&nbsp;podejmowaniu świadomych decyzji finansowych, 
-              które prowadzą do długoterminowego bezpieczeństwa i&nbsp;spokoju.
+              Pomagam klientom w podejmowaniu świadomych decyzji finansowych, 
+              które prowadzą do długoterminowego bezpieczeństwa i spokoju.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up animation-delay-300">
               <Link to="/umow-spotkanie">
@@ -97,7 +97,7 @@ export default function HomePage() {
             </h2>
             <p className="text-slate-600 max-w-2xl mx-auto">
               Oferuję pełen zakres usług dostosowanych do indywidualnych potrzeb 
-              i&nbsp;celów finansowych każdego klienta.
+              i celów finansowych każdego klienta.
             </p>
           </div>
 
@@ -118,7 +118,7 @@ export default function HomePage() {
                   </h3>
                   <p className="text-slate-600 leading-relaxed mb-4">
                     Pomagam zaplanować spójną strategię zarządzania finansami, uwzględniając 
-                    cele <strong className="text-[#0A192F]">krótko</strong> i&nbsp;<strong className="text-[#0A192F]">długoterminowe</strong> oraz 
+                    cele <strong className="text-[#0A192F]">krótko</strong> i <strong className="text-[#0A192F]">długoterminowe</strong> oraz 
                     zmieniające się warunki życiowe.
                   </p>
                   <Link 
@@ -161,7 +161,7 @@ export default function HomePage() {
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed">
                 Kompleksowe rozwiązania zabezpieczające Twój majątek 
-                przed ryzykami i&nbsp;nieprzewidzianymi zdarzeniami.
+                przed ryzykami i nieprzewidzianymi zdarzeniami.
               </p>
             </div>
 
@@ -180,8 +180,8 @@ export default function HomePage() {
                   </h3>
                   <p className="text-slate-400 leading-relaxed mb-4">
                     Wierzę, że świadomy klient podejmuje lepsze decyzje. 
-                    Oferuję materiały edukacyjne i&nbsp;konsultacje, które pomogą 
-                    Ci zrozumieć świat finansów i&nbsp;inwestycji.
+                    Oferuję materiały edukacyjne i konsultacje, które pomogą 
+                    Ci zrozumieć świat finansów i inwestycji.
                   </p>
                   <Link 
                     to="/blog" 
@@ -213,22 +213,22 @@ export default function HomePage() {
               {
                 icon: Users,
                 title: "Usługa",
-                desc: <>Niezobowiązujące spotkanie, podczas którego omawiane są <strong className="text-[#0A192F]">zasady współpracy</strong>. Wspólnie oceniamy, czy taka forma wsparcia <strong className="text-[#0A192F]">ma sens</strong> w&nbsp;danej sytuacji.</>
+                desc: <>Niezobowiązujące spotkanie, podczas którego omawiane są <strong className="text-[#0A192F]">zasady współpracy</strong>. Wspólnie oceniamy, czy taka forma wsparcia <strong className="text-[#0A192F]">ma sens</strong> w danej sytuacji.</>
               },
               {
                 icon: Search,
                 title: "Analiza",
-                desc: <>Szczegółowe <strong className="text-[#0A192F]">przeanalizowanie sytuacji finansowej</strong> oraz identyfikacja możliwych kierunków i&nbsp;obszarów do uporządkowania lub poprawy.</>
+                desc: <>Szczegółowe <strong className="text-[#0A192F]">przeanalizowanie sytuacji finansowej</strong> oraz identyfikacja możliwych kierunków i obszarów do uporządkowania lub poprawy.</>
               },
               {
                 icon: FileText,
                 title: "Doradztwo",
-                desc: <>Przekazanie spójnego <strong className="text-[#0A192F]">planu finansowego</strong> oraz omówienie konkretnych rekomendacji i&nbsp;dalszych kroków, opartych na przeprowadzonej analizie.</>
+                desc: <>Przekazanie spójnego <strong className="text-[#0A192F]">planu finansowego</strong> oraz omówienie konkretnych rekomendacji i dalszych kroków, opartych na przeprowadzonej analizie.</>
               },
               {
                 icon: RefreshCw,
                 title: "Serwis",
-                desc: <>Regularne spotkania serwisowe, których celem jest <strong className="text-[#0A192F]">bieżące monitorowanie sytuacji finansowej</strong> i&nbsp;życiowej oraz aktualizowanie planu finansowego w&nbsp;odpowiedzi na zachodzące zmiany.</>
+                desc: <>Regularne spotkania serwisowe, których celem jest <strong className="text-[#0A192F]">bieżące monitorowanie sytuacji finansowej</strong> i życiowej oraz aktualizowanie planu finansowego w odpowiedzi na zachodzące zmiany.</>
               }
             ].map((step, index) => (
               <div
@@ -264,8 +264,8 @@ export default function HomePage() {
               </h2>
               <p className="text-slate-600 leading-relaxed mb-8">
                 Każda współpraca zaczyna się od głębokiego <strong className="text-[#0A192F]">zrozumienia Twoich celów</strong>, 
-                wartości i&nbsp;sytuacji życiowej. Nie oferuję standardowych rozwiązań — 
-                tworzę <strong className="text-[#0A192F]">spersonalizowane</strong> strategie, które ewoluują wraz z&nbsp;Tobą.
+                wartości i sytuacji życiowej. Nie oferuję standardowych rozwiązań — 
+                tworzę <strong className="text-[#0A192F]">spersonalizowane</strong> strategie, które ewoluują wraz z Tobą.
               </p>
 
               <div className="space-y-6">
@@ -273,7 +273,7 @@ export default function HomePage() {
                   {
                     icon: Award,
                     title: "Jasny proces współpracy",
-                    desc: "Przejrzysty system pracy: usługa, analiza, doradztwo i&nbsp;stały serwis."
+                    desc: "Przejrzysty system pracy: usługa, analiza, doradztwo i stały serwis."
                   },
                   {
                     icon: Users,
@@ -283,7 +283,7 @@ export default function HomePage() {
                   {
                     icon: Clock,
                     title: "Stała opieka",
-                    desc: "Regularne spotkania i&nbsp;aktualizacja planu wraz ze zmianami."
+                    desc: "Regularne spotkania i aktualizacja planu wraz ze zmianami."
                   }
                 ].map((item, index) => (
                   <div key={index} className="flex items-start gap-4">
@@ -321,7 +321,7 @@ export default function HomePage() {
             Gotowy na pierwszy krok?
           </h2>
           <p className="text-slate-400 max-w-xl mx-auto mb-10">
-            Umów się na bezpłatną konsultację i&nbsp;dowiedz się, jak mogę pomóc 
+            Umów się na bezpłatną konsultację i dowiedz się, jak mogę pomóc 
             Ci osiągnąć Twoje cele finansowe.
           </p>
           <Link to="/umow-spotkanie">

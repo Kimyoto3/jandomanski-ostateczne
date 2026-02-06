@@ -35,16 +35,16 @@ export default function AboutMePage() {
                 Planer finansowy
               </p>
               <p className="text-slate-600 leading-relaxed mb-4">
-                Nie buduję relacji w&nbsp;oparciu o&nbsp;obietnice szybkich efektów. 
+                Nie buduję relacji w oparciu o obietnice szybkich efektów. 
                 Skupiam się na porządkowaniu finansów, długoterminowym myśleniu 
-                i&nbsp;świadomych decyzjach. Współpracuję z&nbsp;osobami, które chcą mieć 
-                <strong className="text-[#0A192F]"> spokój w&nbsp;finansach</strong> oraz 
+                i świadomych decyzjach. Współpracuję z osobami, które chcą mieć 
+                <strong className="text-[#0A192F]"> spokój w finansach</strong> oraz 
                 <strong className="text-[#0A192F]"> jasny plan</strong> prowadzący – przy 
                 wsparciu ekspertów – do wyznaczonych celów.
               </p>
               <p className="text-slate-600 leading-relaxed mb-8">
-                Działam jako radca majątkowy we współpracy z&nbsp;<strong className="text-[#0A192F]">Investment Partners S.A.</strong>, 
-                co zapewnia dostęp do sprawdzonych rozwiązań i&nbsp;współpracę z&nbsp;regulowanymi 
+                Działam jako radca majątkowy we współpracy z <strong className="text-[#0A192F]">Investment Partners S.A.</strong>, 
+                co zapewnia dostęp do sprawdzonych rozwiązań i współpracę z regulowanymi 
                 instytucjami finansowymi.
               </p>
               <Link to="/umow-spotkanie">
@@ -78,22 +78,22 @@ export default function AboutMePage() {
               {
                 icon: Users,
                 title: "Usługa",
-                desc: <>Niezobowiązujące spotkanie, podczas którego omawiane są <strong className="text-[#0A192F]">zasady współpracy</strong>. Wspólnie oceniamy, czy taka forma wsparcia <strong className="text-[#0A192F]">ma sens</strong> w&nbsp;danej sytuacji.</>
+                desc: <>Niezobowiązujące spotkanie, podczas którego omawiane są <strong className="text-[#0A192F]">zasady współpracy</strong>. Wspólnie oceniamy, czy taka forma wsparcia <strong className="text-[#0A192F]">ma sens</strong> w danej sytuacji.</>
               },
               {
                 icon: Search,
                 title: "Analiza",
-                desc: <>Szczegółowe <strong className="text-[#0A192F]">przeanalizowanie sytuacji finansowej</strong> oraz identyfikacja możliwych kierunków i&nbsp;obszarów do uporządkowania lub poprawy.</>
+                desc: <>Szczegółowe <strong className="text-[#0A192F]">przeanalizowanie sytuacji finansowej</strong> oraz identyfikacja możliwych kierunków i obszarów do uporządkowania lub poprawy.</>
               },
               {
                 icon: FileText,
                 title: "Doradztwo",
-                desc: <>Przekazanie spójnego <strong className="text-[#0A192F]">planu finansowego</strong> oraz omówienie konkretnych rekomendacji i&nbsp;dalszych kroków, opartych na przeprowadzonej analizie.</>
+                desc: <>Przekazanie spójnego <strong className="text-[#0A192F]">planu finansowego</strong> oraz omówienie konkretnych rekomendacji i dalszych kroków, opartych na przeprowadzonej analizie.</>
               },
               {
                 icon: RefreshCw,
                 title: "Serwis",
-                desc: <>Regularne spotkania serwisowe, których celem jest <strong className="text-[#0A192F]">bieżące monitorowanie sytuacji finansowej</strong> i&nbsp;życiowej oraz aktualizowanie planu finansowego w&nbsp;odpowiedzi na zachodzące zmiany.</>
+                desc: <>Regularne spotkania serwisowe, których celem jest <strong className="text-[#0A192F]">bieżące monitorowanie sytuacji finansowej</strong> i życiowej oraz aktualizowanie planu finansowego w odpowiedzi na zachodzące zmiany.</>
               }
             ].map((step, index) => (
               <div
@@ -130,7 +130,7 @@ export default function AboutMePage() {
             </h2>
             <blockquote className="text-xl text-slate-300 leading-relaxed italic mb-8">
               "Prawdziwe bogactwo to nie tylko liczby na koncie. To spokój ducha, 
-              bezpieczeństwo rodziny i&nbsp;wolność podejmowania życiowych decyzji 
+              bezpieczeństwo rodziny i wolność podejmowania życiowych decyzji 
               bez finansowych ograniczeń. Moim celem jest pomóc Ci to osiągnąć."
             </blockquote>
             <p className="text-[#D4AF37] font-display font-semibold">
@@ -148,7 +148,7 @@ export default function AboutMePage() {
           </h2>
           <p className="text-slate-600 max-w-xl mx-auto mb-8">
             Umów się na niezobowiązującą rozmowę. Chętnie odpowiem na Twoje 
-            pytania i&nbsp;przedstawię, jak mogę pomóc.
+            pytania i przedstawię, jak mogę pomóc.
           </p>
           <Link to="/umow-spotkanie">
             <Button

@@ -87,7 +87,7 @@ export default function ContactPage() {
                     Dziękuję za wiadomość!
                   </h3>
                   <p className="text-slate-600 mb-6">
-                    Odpowiem najszybciej jak to możliwe, zazwyczaj w&nbsp;ciągu 24 godzin.
+                    Odpowiem najszybciej jak to możliwe, zazwyczaj w ciągu 24 godzin.
                   </p>
                   <Button
                     onClick={() => setIsSubmitted(false)}
@@ -102,7 +102,7 @@ export default function ContactPage() {
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <Label htmlFor="name" className="text-sm font-medium text-slate-700 mb-2 block">
-                        Imię i&nbsp;nazwisko *
+                        Imię i nazwisko *
                       </Label>
                       <Input
                         id="name"

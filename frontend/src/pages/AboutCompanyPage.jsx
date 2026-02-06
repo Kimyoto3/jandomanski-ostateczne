@@ -16,8 +16,8 @@ export default function AboutCompanyPage() {
               Investment Partners
             </h1>
             <p className="text-lg text-slate-600 leading-relaxed mb-6">
-              Investment Partners to firma specjalizująca się w&nbsp;planowaniu finansowym, 
-              współpracująca z&nbsp;instytucjami finansowymi działającymi pod nadzorem 
+              Investment Partners to firma specjalizująca się w planowaniu finansowym, 
+              współpracująca z instytucjami finansowymi działającymi pod nadzorem 
               Komisji Nadzoru Finansowego. W ramach tej współpracy działam jako radca majątkowy.
             </p>
             <p className="font-mono text-[#D4AF37] text-xs tracking-widest mb-4">
@@ -64,10 +64,10 @@ export default function AboutCompanyPage() {
               <p className="text-slate-600 leading-relaxed mb-6">
                 Dostarczamy profesjonalne, niezależne doradztwo finansowe, 
                 które pomaga naszym klientom podejmować świadome decyzje 
-                i&nbsp;budować trwałe fundamenty finansowego bezpieczeństwa.
+                i budować trwałe fundamenty finansowego bezpieczeństwa.
               </p>
               <p className="text-slate-600 leading-relaxed">
-                Wierzymy, że każdy zasługuje na dostęp do wiedzy i&nbsp;narzędzi, 
+                Wierzymy, że każdy zasługuje na dostęp do wiedzy i narzędzi, 
                 które pozwalają efektywnie zarządzać majątkiem — niezależnie 
                 od jego wielkości.
               </p>
@@ -86,11 +86,11 @@ export default function AboutCompanyPage() {
               <p className="text-slate-600 leading-relaxed mb-6">
                 Chcemy być zaufanym partnerem finansowym dla pokoleń polskich 
                 rodzin — firmą, która jest synonimem integralności, kompetencji 
-                i&nbsp;długoterminowego myślenia.
+                i długoterminowego myślenia.
               </p>
               <p className="text-slate-600 leading-relaxed">
-                Dążymy do świata, w&nbsp;którym edukacja finansowa jest powszechna, 
-                a&nbsp;każdy może z&nbsp;pewnością planować swoją przyszłość.
+                Dążymy do świata, w którym edukacja finansowa jest powszechna, 
+                a każdy może z pewnością planować swoją przyszłość.
               </p>
             </div>
           </div>
@@ -114,17 +114,17 @@ export default function AboutCompanyPage() {
               {
                 icon: Shield,
                 title: "Integralność",
-                desc: "Działamy zawsze w&nbsp;najlepszym interesie klienta. Przejrzystość i&nbsp;uczciwość to fundament naszej pracy."
+                desc: "Działamy zawsze w najlepszym interesie klienta. Przejrzystość i uczciwość to fundament naszej pracy."
               },
               {
                 icon: Users,
                 title: "Partnerstwo",
-                desc: "Budujemy długoterminowe relacje oparte na zaufaniu i&nbsp;wzajemnym szacunku."
+                desc: "Budujemy długoterminowe relacje oparte na zaufaniu i wzajemnym szacunku."
               },
               {
                 icon: Target,
                 title: "Profesjonalizm",
-                desc: "Ciągle podnosimy kwalifikacje i&nbsp;stosujemy najwyższe standardy branżowe."
+                desc: "Ciągle podnosimy kwalifikacje i stosujemy najwyższe standardy branżowe."
               },
               {
                 icon: Scale,
@@ -161,19 +161,19 @@ export default function AboutCompanyPage() {
                 ZGODNOŚĆ Z PRZEPISAMI
               </p>
               <h2 className="font-display text-3xl font-bold text-[#0A192F] mb-6">
-                Działamy zgodnie z&nbsp;prawem
+                Działamy zgodnie z prawem
               </h2>
               <p className="text-slate-600 leading-relaxed mb-8">
-                Investment Partners działa w&nbsp;pełnej zgodności z&nbsp;polskimi i&nbsp;europejskimi 
-                regulacjami dotyczącymi usług finansowych. Dbamy o&nbsp;najwyższe 
+                Investment Partners działa w pełnej zgodności z polskimi i europejskimi 
+                regulacjami dotyczącymi usług finansowych. Dbamy o najwyższe 
                 standardy ochrony klientów.
               </p>
 
               <div className="space-y-4">
                 {[
-                  "Rejestracja w&nbsp;KNF jako agent firmy inwestycyjnej",
-                  "Zgodność z&nbsp;dyrektywą MiFID II",
-                  "Polityka ochrony danych zgodna z&nbsp;RODO",
+                  "Rejestracja w KNF jako agent firmy inwestycyjnej",
+                  "Zgodność z dyrektywą MiFID II",
+                  "Polityka ochrony danych zgodna z RODO",
                   "Ubezpieczenie OC działalności zawodowej",
                   "Regularne szkolenia compliance"
                 ].map((item, index) => (
@@ -193,7 +193,7 @@ export default function AboutCompanyPage() {
                 {[
                   {
                     title: "Poufność",
-                    desc: "Wszystkie dane klientów są chronione i&nbsp;przetwarzane zgodnie z&nbsp;RODO."
+                    desc: "Wszystkie dane klientów są chronione i przetwarzane zgodnie z RODO."
                   },
                   {
                     title: "Transparentność",

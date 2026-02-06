@@ -66,8 +66,8 @@ export default function BlogPage() {
               Edukacja finansowa
             </h1>
             <p className="text-slate-600 text-lg leading-relaxed">
-              Artykuły, poradniki i&nbsp;analizy, które pomogą Ci lepiej zrozumieć 
-              świat finansów i&nbsp;podejmować świadome decyzje inwestycyjne.
+              Artykuły, poradniki i analizy, które pomogą Ci lepiej zrozumieć 
+              świat finansów i podejmować świadome decyzje inwestycyjne.
             </p>
           </div>
         </div>
@@ -203,7 +203,7 @@ export default function BlogPage() {
             Chcesz więcej wiedzy?
           </h2>
           <p className="text-slate-600 max-w-xl mx-auto mb-8">
-            Umów się na spotkanie, a&nbsp;opowiem Ci więcej o&nbsp;strategiach 
+            Umów się na spotkanie, a opowiem Ci więcej o strategiach 
             budowania majątku dopasowanych do Twojej sytuacji.
           </p>
           <Link to="/umow-spotkanie">
