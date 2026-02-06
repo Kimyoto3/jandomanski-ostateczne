@@ -302,7 +302,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="aspect-[4/5] bg-slate-200 rounded-sm overflow-hidden">
                 <img
-                  src="https://customer-assets.emergentagent.com/job_invest-wisely-20/artifacts/vm77wbp0_DSC01228.jpg"
+                  src="https://customer-assets.emergentagent.com/job_invest-wisely-20/artifacts/n2h6zljh_DSC00839-2.jpg"
                   alt="Jan Domański - Planer finansowy"
                   className="w-full h-full object-cover"
                 />

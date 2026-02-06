@@ -13,7 +13,7 @@ export default function AboutMePage() {
             <div className="relative order-2 lg:order-1">
               <div className="aspect-[3/4] bg-slate-200 rounded-xl overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800"
+                  src="https://customer-assets.emergentagent.com/job_invest-wisely-20/artifacts/vm77wbp0_DSC01228.jpg"
                   alt="Jan Domański - Planer finansowy"
                   className="w-full h-full object-cover"
                   data-testid="advisor-photo"
