@@ -98,7 +98,6 @@ export default function BookMeetingPage() {
   };
 
   const topics = [
-    "Doradztwo inwestycyjne",
     "Planowanie emerytalne",
     "Ochrona majątku",
     "Edukacja finansowa",
@@ -274,7 +273,7 @@ export default function BookMeetingPage() {
                         required
                         data-testid="booking-name-input"
                         placeholder="Jan Kowalski"
-                        className="pl-10 rounded-sm border-slate-200 focus:border-[#0A192F] focus:ring-[#0A192F] h-12"
+                        className="pl-10 rounded-xl border-slate-200 focus:border-[#0A192F] focus:ring-[#0A192F] h-12"
                       />
                     </div>
                   </div>
@@ -294,7 +293,7 @@ export default function BookMeetingPage() {
                         required
                         data-testid="booking-email-input"
                         placeholder="jan@example.com"
-                        className="pl-10 rounded-sm border-slate-200 focus:border-[#0A192F] focus:ring-[#0A192F] h-12"
+                        className="pl-10 rounded-xl border-slate-200 focus:border-[#0A192F] focus:ring-[#0A192F] h-12"
                       />
                     </div>
                   </div>
@@ -314,7 +313,7 @@ export default function BookMeetingPage() {
                         required
                         data-testid="booking-phone-input"
                         placeholder="+48 123 456 789"
-                        className="pl-10 rounded-sm border-slate-200 focus:border-[#0A192F] focus:ring-[#0A192F] h-12"
+                        className="pl-10 rounded-xl border-slate-200 focus:border-[#0A192F] focus:ring-[#0A192F] h-12"
                       />
                     </div>
                   </div>
@@ -329,7 +328,7 @@ export default function BookMeetingPage() {
                     >
                       <SelectTrigger
                         data-testid="booking-topic-select"
-                        className="rounded-sm border-slate-200 focus:border-[#0A192F] focus:ring-[#0A192F] h-12"
+                        className="rounded-xl border-slate-200 focus:border-[#0A192F] focus:ring-[#0A192F] h-12"
                       >
                         <SelectValue placeholder="Wybierz temat" />
                       </SelectTrigger>
@@ -355,13 +354,13 @@ export default function BookMeetingPage() {
                       data-testid="booking-message-input"
                       placeholder="Opisz krótko, w czym mogę pomóc..."
                       rows={4}
-                      className="rounded-sm border-slate-200 focus:border-[#0A192F] focus:ring-[#0A192F] resize-none"
+                      className="rounded-xl border-slate-200 focus:border-[#0A192F] focus:ring-[#0A192F] resize-none"
                     />
                   </div>
 
                   {/* Summary */}
                   {selectedDate && formData.preferred_time && (
-                    <div className="bg-[#0A192F] p-6 rounded-sm">
+                    <div className="bg-[#0A192F] p-6 rounded-xl">
                       <h4 className="text-[#D4AF37] font-semibold mb-3">Podsumowanie</h4>
                       <p className="text-white text-sm">
                         <strong>Data:</strong> {format(selectedDate, "d MMMM yyyy", { locale: pl })}
