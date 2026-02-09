@@ -80,7 +80,7 @@ export default function ContactPage() {
               {isSubmitted ? (
                 <div
                   data-testid="contact-success-message"
-                  className="bg-green-50 border border-green-200 rounded-sm p-8 text-center"
+                  className="bg-green-50 border border-green-200 rounded-xl p-8 text-center"
                 >
                   <CheckCircle className="w-12 h-12 text-green-500 mx-auto mb-4" />
                   <h3 className="font-display text-xl font-semibold text-[#0A192F] mb-2">
@@ -113,7 +113,7 @@ export default function ContactPage() {
                         required
                         data-testid="contact-name-input"
                         placeholder="Jan Kowalski"
-                        className="rounded-sm border-slate-200 focus:border-[#0A192F] focus:ring-[#0A192F] h-12"
+                        className="rounded-xl border-slate-200 focus:border-[#0A192F] focus:ring-[#0A192F] h-12"
                       />
                     </div>
                     <div>
@@ -129,7 +129,7 @@ export default function ContactPage() {
                         required
                         data-testid="contact-email-input"
                         placeholder="jan@example.com"
-                        className="rounded-sm border-slate-200 focus:border-[#0A192F] focus:ring-[#0A192F] h-12"
+                        className="rounded-xl border-slate-200 focus:border-[#0A192F] focus:ring-[#0A192F] h-12"
                       />
                     </div>
                   </div>
@@ -163,7 +163,7 @@ export default function ContactPage() {
                       data-testid="contact-message-input"
                       placeholder="W czym mogę pomóc?"
                       rows={6}
-                      className="rounded-sm border-slate-200 focus:border-[#0A192F] focus:ring-[#0A192F] resize-none"
+                      className="rounded-xl border-slate-200 focus:border-[#0A192F] focus:ring-[#0A192F] resize-none"
                     />
                   </div>
 
