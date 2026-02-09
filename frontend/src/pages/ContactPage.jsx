@@ -195,9 +195,9 @@ export default function ContactPage() {
               <div className="space-y-6 mb-12">
                 <div
                   data-testid="contact-info-phone"
-                  className="flex items-start gap-4 p-6 bg-slate-50 rounded-sm"
+                  className="flex items-start gap-4 p-6 bg-slate-50 rounded-xl"
                 >
-                  <div className="w-12 h-12 bg-[#0A192F] rounded-sm flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-[#0A192F] rounded-xl flex items-center justify-center flex-shrink-0">
                     <Phone className="w-5 h-5 text-[#D4AF37]" />
                   </div>
                   <div>
@@ -213,9 +213,9 @@ export default function ContactPage() {
 
                 <div
                   data-testid="contact-info-email"
-                  className="flex items-start gap-4 p-6 bg-slate-50 rounded-sm"
+                  className="flex items-start gap-4 p-6 bg-slate-50 rounded-xl"
                 >
-                  <div className="w-12 h-12 bg-[#0A192F] rounded-sm flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-[#0A192F] rounded-xl flex items-center justify-center flex-shrink-0">
                     <Mail className="w-5 h-5 text-[#D4AF37]" />
                   </div>
                   <div>
@@ -231,9 +231,9 @@ export default function ContactPage() {
 
                 <div
                   data-testid="contact-info-hours"
-                  className="flex items-start gap-4 p-6 bg-slate-50 rounded-sm"
+                  className="flex items-start gap-4 p-6 bg-slate-50 rounded-xl"
                 >
-                  <div className="w-12 h-12 bg-[#0A192F] rounded-sm flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-[#0A192F] rounded-xl flex items-center justify-center flex-shrink-0">
                     <Clock className="w-5 h-5 text-[#D4AF37]" />
                   </div>
                   <div>
@@ -247,7 +247,7 @@ export default function ContactPage() {
               </div>
 
               {/* Map placeholder */}
-              <div className="bg-slate-100 rounded-sm h-64 flex items-center justify-center">
+              <div className="bg-slate-100 rounded-xl h-64 flex items-center justify-center">
                 <p className="text-slate-400 text-sm">
                   Mapa lokalizacji
                 </p>
