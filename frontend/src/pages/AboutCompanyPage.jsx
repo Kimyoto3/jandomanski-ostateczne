@@ -195,7 +195,6 @@ export default function AboutCompanyPage() {
 
               <div className="space-y-4">
                 {[
-                  "Rejestracja w KNF jako agent firmy inwestycyjnej",
                   "Zgodność z dyrektywą MiFID II",
                   "Polityka ochrony danych zgodna z RODO",
                   "Ubezpieczenie OC działalności zawodowej",
