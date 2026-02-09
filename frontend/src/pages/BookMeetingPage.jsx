@@ -176,7 +176,7 @@ export default function BookMeetingPage() {
               {/* Calendar Section */}
               <div>
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="w-10 h-10 bg-[#0A192F] rounded-sm flex items-center justify-center">
+                  <div className="w-10 h-10 bg-[#0A192F] rounded-xl flex items-center justify-center">
                     <CalendarDays className="w-5 h-5 text-[#D4AF37]" />
                   </div>
                   <h2 className="font-display text-xl font-semibold text-[#0A192F]">
@@ -184,7 +184,7 @@ export default function BookMeetingPage() {
                   </h2>
                 </div>
 
-                <div className="bg-slate-50 p-6 rounded-sm border border-slate-100">
+                <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
                   <Calendar
                     mode="single"
                     selected={selectedDate}
@@ -192,7 +192,7 @@ export default function BookMeetingPage() {
                     disabled={disabledDays}
                     locale={pl}
                     data-testid="booking-calendar"
-                    className="rounded-sm"
+                    className="rounded-xl"
                     fromDate={new Date()}
                     toDate={addDays(new Date(), 60)}
                   />
@@ -202,7 +202,7 @@ export default function BookMeetingPage() {
                 {selectedDate && (
                   <div className="mt-8">
                     <div className="flex items-center gap-3 mb-4">
-                      <div className="w-10 h-10 bg-[#0A192F] rounded-sm flex items-center justify-center">
+                      <div className="w-10 h-10 bg-[#0A192F] rounded-xl flex items-center justify-center">
                         <Clock className="w-5 h-5 text-[#D4AF37]" />
                       </div>
                       <h3 className="font-display text-lg font-semibold text-[#0A192F]">
@@ -217,7 +217,7 @@ export default function BookMeetingPage() {
                     {loadingSlots ? (
                       <div className="grid grid-cols-4 gap-2">
                         {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
-                          <div key={i} className="h-12 bg-slate-100 animate-pulse rounded-sm" />
+                          <div key={i} className="h-12 bg-slate-100 animate-pulse rounded-xl" />
                         ))}
                       </div>
                     ) : (
@@ -230,7 +230,7 @@ export default function BookMeetingPage() {
                             disabled={!slot.available}
                             onClick={() => setFormData((prev) => ({ ...prev, preferred_time: slot.time }))}
                             data-testid={`time-slot-${slot.time.replace(":", "")}`}
-                            className={`h-12 rounded-sm ${
+                            className={`h-12 rounded-xl ${
                               formData.preferred_time === slot.time
                                 ? "bg-[#0A192F] text-white"
                                 : slot.available
@@ -250,7 +250,7 @@ export default function BookMeetingPage() {
               {/* Form Section */}
               <div>
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="w-10 h-10 bg-[#0A192F] rounded-sm flex items-center justify-center">
+                  <div className="w-10 h-10 bg-[#0A192F] rounded-xl flex items-center justify-center">
                     <User className="w-5 h-5 text-[#D4AF37]" />
                   </div>
                   <h2 className="font-display text-xl font-semibold text-[#0A192F]">
