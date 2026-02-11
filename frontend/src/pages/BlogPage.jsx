@@ -1,57 +1,36 @@
-import { useState, useEffect } from "react";
+import { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { Search, Clock, ArrowRight, BookOpen } from "lucide-react";
-import axios from "axios";
-
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
+import { BLOG_ARTICLES, getCategories } from "@/data/blogArticles";
 
 export default function BlogPage() {
-  const [articles, setArticles] = useState([]);
-  const [categories, setCategories] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [searchQuery, setSearchQuery] = useState("");
-  const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    fetchArticles();
-    fetchCategories();
-  }, [selectedCategory]);
+  const categories = useMemo(() => getCategories(), []);
 
-  const fetchArticles = async () => {
-    try {
-      setLoading(true);
-      const params = selectedCategory ? { category: selectedCategory } : {};
-      const response = await axios.get(`${API}/blog/articles`, { params });
-      setArticles(response.data);
-    } catch (error) {
-      console.error("Error fetching articles:", error);
-    } finally {
-      setLoading(false);
+  const filteredArticles = useMemo(() => {
+    let articles = BLOG_ARTICLES;
+    
+    if (selectedCategory) {
+      articles = articles.filter(article => article.category === selectedCategory);
     }
-  };
-
-  const fetchCategories = async () => {
-    try {
-      const response = await axios.get(`${API}/blog/categories`);
-      setCategories(response.data.categories);
-    } catch (error) {
-      console.error("Error fetching categories:", error);
-    }
-  };
-
-  const filteredArticles = articles.filter((article) => {
+    
     const query = searchQuery.toLowerCase().trim();
-    if (!query) return true;
-    return (
-      article.title.toLowerCase().includes(query) ||
-      article.excerpt.toLowerCase().includes(query) ||
-      article.category.toLowerCase().includes(query) ||
-      article.content.toLowerCase().includes(query)
-    );
-  });
+    if (query) {
+      articles = articles.filter(article =>
+        article.title.toLowerCase().includes(query) ||
+        article.excerpt.toLowerCase().includes(query) ||
+        article.category.toLowerCase().includes(query) ||
+        article.content.toLowerCase().includes(query)
+      );
+    }
+    
+    return articles;
+  }, [selectedCategory, searchQuery]);
 
   return (
     <div data-testid="blog-page" className="min-h-screen pt-20">
@@ -119,7 +98,7 @@ export default function BlogPage() {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 data-testid="blog-search-input"
-                className="pl-10 rounded-sm border-slate-200 focus:border-[#0A192F] focus:ring-[#0A192F]"
+                className="pl-10 rounded-xl border-slate-200 focus:border-[#0A192F] focus:ring-[#0A192F]"
               />
             </div>
           </div>
@@ -129,18 +108,7 @@ export default function BlogPage() {
       {/* Articles Grid */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
-          {loading ? (
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[1, 2, 3].map((i) => (
-                <div key={i} className="animate-pulse">
-                  <div className="bg-slate-200 aspect-video rounded-sm mb-4" />
-                  <div className="h-4 bg-slate-200 rounded w-1/4 mb-3" />
-                  <div className="h-6 bg-slate-200 rounded w-3/4 mb-2" />
-                  <div className="h-4 bg-slate-200 rounded w-full" />
-                </div>
-              ))}
-            </div>
-          ) : filteredArticles.length === 0 ? (
+          {filteredArticles.length === 0 ? (
             <div className="text-center py-16">
               <BookOpen className="w-12 h-12 text-slate-300 mx-auto mb-4" />
               <h3 className="font-display text-xl font-semibold text-[#0A192F] mb-2">
@@ -159,7 +127,7 @@ export default function BlogPage() {
                   className="group"
                 >
                   <Link to={`/blog/${article.slug}`}>
-                    <div className="aspect-video bg-slate-100 rounded-sm overflow-hidden mb-5">
+                    <div className="aspect-video bg-slate-100 rounded-xl overflow-hidden mb-5">
                       <img
                         src={article.image_url}
                         alt={article.title}
@@ -169,7 +137,7 @@ export default function BlogPage() {
                     <div className="flex items-center gap-3 mb-3">
                       <Badge
                         variant="secondary"
-                        className="bg-slate-100 text-slate-600 font-normal rounded-sm"
+                        className="bg-slate-100 text-slate-600 font-normal rounded-xl"
                       >
                         {article.category}
                       </Badge>
