@@ -80,7 +80,7 @@ export default function HomePage() {
               <p className="font-display text-lg md:text-xl font-bold text-[#0A192F] mb-1">
                 Plan finansowy
               </p>
-              <p className="text-slate-500 text-sm">Dopasowany do sytuacji i celów</p>
+              <p className="text-slate-500 text-sm">Dopasowany do sytuacji i&nbsp;celów</p>
             </div>
             <div className="text-center">
               <p className="font-display text-lg md:text-xl font-bold text-[#0A192F] mb-1">
@@ -295,7 +295,7 @@ export default function HomePage() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-[#0A192F] mb-1">Jasny proces współpracy</h4>
-                    <p className="text-slate-500 text-sm">Przejrzysty system pracy: usługa, analiza, doradztwo i stały serwis.</p>
+                    <p className="text-slate-500 text-sm">Przejrzysty system pracy: usługa, analiza, doradztwo i&nbsp;stały serwis.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
