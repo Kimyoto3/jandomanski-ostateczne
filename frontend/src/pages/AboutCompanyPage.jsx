@@ -68,53 +68,40 @@ export default function AboutCompanyPage() {
               {
                 icon: TrendingUp,
                 title: "Bogacenie",
-                desc: "Systematyczne budowanie majątku krok po kroku.",
-                image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=400&h=200&fit=crop"
+                desc: "Systematyczne budowanie majątku krok po kroku."
               },
               {
                 icon: ShieldCheck,
                 title: "Bezpieczeństwo",
-                desc: "Ochrona finansów przed nieprzewidzianymi zdarzeniami.",
-                image: "https://images.unsplash.com/photo-1560472355-536de3962603?w=400&h=200&fit=crop"
+                desc: "Ochrona finansów przed nieprzewidzianymi zdarzeniami."
               },
               {
                 icon: Flag,
                 title: "Cele długoterminowe",
-                desc: "Plan na przyszłość podzielony na realne etapy.",
-                image: "https://images.unsplash.com/photo-1434626881859-194d67b2b86f?w=400&h=200&fit=crop"
+                desc: "Plan na przyszłość podzielony na realne etapy."
               },
               {
                 icon: Zap,
                 title: "Cele krótkoterminowe",
-                desc: "Konkretne działania na najbliższe miesiące.",
-                image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=200&fit=crop"
+                desc: "Konkretne działania na najbliższe miesiące."
               }
             ].map((item, index) => (
               <div
                 key={index}
                 data-testid={`philosophy-card-${index}`}
-                className="bg-white rounded-xl border border-slate-100 overflow-hidden card-hover"
+                className="bg-white rounded-xl border border-slate-100 overflow-hidden card-hover p-6"
               >
-                <div className="h-40 overflow-hidden">
-                  <img 
-                    src={item.image} 
-                    alt={item.title}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <div className="flex items-center gap-3 mb-3">
-                    <div className="w-10 h-10 bg-[#0A192F] rounded-xl flex items-center justify-center">
-                      <item.icon className="w-5 h-5 text-[#D4AF37]" />
-                    </div>
-                    <h3 className="font-display text-xl font-semibold text-[#0A192F]">
-                      {item.title}
-                    </h3>
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-10 h-10 bg-[#0A192F] rounded-xl flex items-center justify-center">
+                    <item.icon className="w-5 h-5 text-[#D4AF37]" />
                   </div>
-                  <p className="text-slate-600 text-sm">
-                    {item.desc}
-                  </p>
+                  <h3 className="font-display text-xl font-semibold text-[#0A192F]">
+                    {item.title}
+                  </h3>
                 </div>
+                <p className="text-slate-600 text-sm">
+                  {item.desc}
+                </p>
               </div>
             ))}
           </div>
