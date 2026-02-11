@@ -161,7 +161,7 @@ export default function BookMeetingPage() {
             </h1>
             <p className="text-slate-600 text-lg leading-relaxed">
               Wybierz dogodny termin na bezpłatną konsultację. Podczas spotkania 
-              omówimy Twoją sytuację finansową i cele.
+              omówimy Twoją sytuację finansową i&nbsp;cele.
             </p>
           </div>
         </div>
@@ -393,7 +393,7 @@ export default function BookMeetingPage() {
                   </Button>
 
                   <p className="text-slate-400 text-xs text-center">
-                    Rezerwując spotkanie, wyrażasz zgodę na kontakt w celu potwierdzenia terminu.
+                    Rezerwując spotkanie, wyrażasz zgodę na kontakt w&nbsp;celu potwierdzenia terminu.
                   </p>
                 </div>
               </div>
