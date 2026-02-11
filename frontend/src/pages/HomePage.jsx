@@ -220,22 +220,22 @@ export default function HomePage() {
               {
                 icon: Users,
                 title: "Usługa",
-                desc: <>Niezobowiązujące spotkanie, podczas którego omawiane są <strong className="text-[#0A192F]">zasady współpracy</strong>. Wspólnie oceniamy, czy taka forma wsparcia <strong className="text-[#0A192F]">ma sens</strong> w danej sytuacji.</>
+                desc: <>Niezobowiązujące spotkanie, podczas którego omawiane są <strong className="text-[#0A192F]">zasady współpracy</strong>. Wspólnie oceniamy, czy taka forma wsparcia <strong className="text-[#0A192F]">ma sens</strong> w&nbsp;danej sytuacji.</>
               },
               {
                 icon: Search,
                 title: "Analiza",
-                desc: <>Szczegółowe <strong className="text-[#0A192F]">przeanalizowanie sytuacji finansowej</strong> oraz identyfikacja możliwych kierunków i obszarów do uporządkowania lub poprawy.</>
+                desc: <>Szczegółowe <strong className="text-[#0A192F]">przeanalizowanie sytuacji finansowej</strong> oraz identyfikacja możliwych kierunków i&nbsp;obszarów do uporządkowania lub poprawy.</>
               },
               {
                 icon: FileText,
                 title: "Doradztwo",
-                desc: <>Przekazanie spójnego <strong className="text-[#0A192F]">planu finansowego</strong> oraz omówienie konkretnych rekomendacji i dalszych kroków, opartych na przeprowadzonej analizie.</>
+                desc: <>Przekazanie spójnego <strong className="text-[#0A192F]">planu finansowego</strong> oraz omówienie konkretnych rekomendacji i&nbsp;dalszych kroków, opartych na przeprowadzonej analizie.</>
               },
               {
                 icon: RefreshCw,
                 title: "Serwis",
-                desc: <>Regularne spotkania serwisowe, których celem jest <strong className="text-[#0A192F]">bieżące monitorowanie sytuacji finansowej</strong> i życiowej oraz aktualizowanie planu finansowego w odpowiedzi na zachodzące zmiany.</>
+                desc: <>Regularne spotkania serwisowe, których celem jest <strong className="text-[#0A192F]">bieżące monitorowanie sytuacji finansowej</strong> i&nbsp;życiowej oraz aktualizowanie planu finansowego w&nbsp;odpowiedzi na zachodzące zmiany.</>
               }
             ].map((step, index) => (
               <div
@@ -284,8 +284,8 @@ export default function HomePage() {
               
               <p className="text-slate-600 leading-relaxed mb-8">
                 Każda współpraca zaczyna się od głębokiego <strong className="text-[#0A192F]">zrozumienia Twoich celów</strong>, 
-                wartości i sytuacji życiowej. Nie oferuję standardowych rozwiązań — 
-                tworzę <strong className="text-[#0A192F]">spersonalizowane</strong> strategie, które ewoluują wraz z Tobą.
+                wartości i&nbsp;sytuacji życiowej. Nie oferuję standardowych rozwiązań — 
+                tworzę <strong className="text-[#0A192F]">spersonalizowane</strong> strategie, które ewoluują wraz z&nbsp;Tobą.
               </p>
 
               <div className="space-y-6">
@@ -313,7 +313,7 @@ export default function HomePage() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-[#0A192F] mb-1">Stała opieka</h4>
-                    <p className="text-slate-500 text-sm">Regularne spotkania i aktualizacja planu wraz ze zmianami.</p>
+                    <p className="text-slate-500 text-sm">Regularne spotkania i&nbsp;aktualizacja planu wraz ze zmianami.</p>
                   </div>
                 </div>
               </div>
@@ -342,7 +342,7 @@ export default function HomePage() {
             Gotowy na pierwszy krok?
           </h2>
           <p className="text-slate-400 max-w-xl mx-auto mb-10">
-            Umów się na bezpłatną konsultację i dowiedz się, jak mogę pomóc 
+            Umów się na bezpłatną konsultację i&nbsp;dowiedz się, jak mogę pomóc 
             Ci osiągnąć Twoje cele finansowe.
           </p>
           <Link to="/umow-spotkanie">
