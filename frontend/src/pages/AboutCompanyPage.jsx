@@ -216,7 +216,7 @@ export default function AboutCompanyPage() {
                 {[
                   {
                     title: "Poufność",
-                    desc: "Wszystkie dane klientów są chronione i&nbsp;przetwarzane zgodnie z&nbsp;RODO."
+                    desc: "Wszystkie dane klientów są chronione i\u00A0przetwarzane zgodnie z\u00A0RODO."
                   },
                   {
                     title: "Transparentność",

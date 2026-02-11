@@ -78,22 +78,22 @@ export default function AboutMePage() {
               {
                 icon: Users,
                 title: "Usługa",
-                desc: <>Niezobowiązujące spotkanie, podczas którego omawiane są <strong className="text-[#0A192F]">zasady współpracy</strong>. Wspólnie oceniamy, czy taka forma wsparcia <strong className="text-[#0A192F]">ma sens</strong> w&nbsp;danej sytuacji.</>
+                desc: <>Niezobowiązujące spotkanie, podczas którego omawiane są <strong className="text-[#0A192F]">zasady współpracy</strong>. Wspólnie oceniamy, czy taka forma wsparcia <strong className="text-[#0A192F]">ma sens</strong> w{"\u00A0"}danej sytuacji.</>
               },
               {
                 icon: Search,
                 title: "Analiza",
-                desc: <>Szczegółowe <strong className="text-[#0A192F]">przeanalizowanie sytuacji finansowej</strong> oraz identyfikacja możliwych kierunków i&nbsp;obszarów do uporządkowania lub poprawy.</>
+                desc: <>Szczegółowe <strong className="text-[#0A192F]">przeanalizowanie sytuacji finansowej</strong> oraz identyfikacja możliwych kierunków i{"\u00A0"}obszarów do uporządkowania lub poprawy.</>
               },
               {
                 icon: FileText,
                 title: "Doradztwo",
-                desc: <>Przekazanie spójnego <strong className="text-[#0A192F]">planu finansowego</strong> oraz omówienie konkretnych rekomendacji i&nbsp;dalszych kroków, opartych na przeprowadzonej analizie.</>
+                desc: <>Przekazanie spójnego <strong className="text-[#0A192F]">planu finansowego</strong> oraz omówienie konkretnych rekomendacji i{"\u00A0"}dalszych kroków, opartych na przeprowadzonej analizie.</>
               },
               {
                 icon: RefreshCw,
                 title: "Serwis",
-                desc: <>Regularne spotkania serwisowe, których celem jest <strong className="text-[#0A192F]">bieżące monitorowanie sytuacji finansowej</strong> i&nbsp;życiowej oraz aktualizowanie planu finansowego w&nbsp;odpowiedzi na zachodzące zmiany.</>
+                desc: <>Regularne spotkania serwisowe, których celem jest <strong className="text-[#0A192F]">bieżące monitorowanie sytuacji finansowej</strong> i{"\u00A0"}życiowej oraz aktualizowanie planu finansowego w{"\u00A0"}odpowiedzi na zachodzące zmiany.</>
               }
             ].map((step, index) => (
               <div
