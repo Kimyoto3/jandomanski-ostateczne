@@ -138,17 +138,17 @@ export default function AboutCompanyPage() {
               {
                 icon: Shield,
                 title: "Integralność",
-                desc: "Działamy zawsze w&nbsp;najlepszym interesie klienta. Przejrzystość i&nbsp;uczciwość to fundament naszej pracy."
+                desc: "Działamy zawsze w\u00A0najlepszym interesie klienta. Przejrzystość i\u00A0uczciwość to fundament naszej pracy."
               },
               {
                 icon: Users,
                 title: "Partnerstwo",
-                desc: "Budujemy długoterminowe relacje oparte na zaufaniu i&nbsp;wzajemnym szacunku."
+                desc: "Budujemy długoterminowe relacje oparte na zaufaniu i\u00A0wzajemnym szacunku."
               },
               {
                 icon: Target,
                 title: "Profesjonalizm",
-                desc: "Ciągle podnosimy kwalifikacje i&nbsp;stosujemy najwyższe standardy branżowe."
+                desc: "Ciągle podnosimy kwalifikacje i\u00A0stosujemy najwyższe standardy branżowe."
               },
               {
                 icon: Scale,
