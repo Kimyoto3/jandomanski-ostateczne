@@ -26,8 +26,8 @@ export default function HomePage() {
               Buduj majątek z perspektywą na lata
             </h1>
             <p className="text-slate-300 text-base md:text-lg leading-relaxed mb-10 animate-fade-in-up animation-delay-200">
-              Pomagam klientom w podejmowaniu świadomych decyzji finansowych, 
-              które prowadzą do długoterminowego bezpieczeństwa i spokoju.
+              Pomagam klientom w&nbsp;podejmowaniu świadomych decyzji finansowych, 
+              które prowadzą do długoterminowego bezpieczeństwa i&nbsp;spokoju.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up animation-delay-300">
               <Link to="/umow-spotkanie">
@@ -104,7 +104,7 @@ export default function HomePage() {
             </h2>
             <p className="text-slate-600 max-w-2xl mx-auto">
               Oferuję pełen zakres usług dostosowanych do indywidualnych potrzeb 
-              i celów finansowych każdego klienta.
+              i&nbsp;celów finansowych każdego klienta.
             </p>
           </div>
 
@@ -125,7 +125,7 @@ export default function HomePage() {
                   </h3>
                   <p className="text-slate-600 leading-relaxed mb-4">
                     Pomagam zaplanować spójną strategię zarządzania finansami, uwzględniając 
-                    cele <strong className="text-[#0A192F]">krótko</strong> i <strong className="text-[#0A192F]">długoterminowe</strong> oraz 
+                    cele <strong className="text-[#0A192F]">krótko</strong> i&nbsp;<strong className="text-[#0A192F]">długoterminowe</strong> oraz 
                     zmieniające się warunki życiowe.
                   </p>
                   <Link 
@@ -168,7 +168,7 @@ export default function HomePage() {
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed">
                 Kompleksowe rozwiązania <strong className="text-[#0A192F]">zabezpieczające</strong> Twój majątek 
-                przed ryzykami i <strong className="text-[#0A192F]">nieprzewidzianymi</strong> zdarzeniami.
+                przed ryzykami i&nbsp;<strong className="text-[#0A192F]">nieprzewidzianymi</strong> zdarzeniami.
               </p>
             </div>
 
@@ -187,8 +187,8 @@ export default function HomePage() {
                   </h3>
                   <p className="text-slate-400 leading-relaxed mb-4">
                     Wierzę, że <strong className="text-white">świadomy</strong> klient podejmuje lepsze decyzje. 
-                    Oferuję <strong className="text-white">materiały edukacyjne</strong> i konsultacje, które pomogą 
-                    Ci zrozumieć <strong className="text-white">świat finansów</strong> i inwestycji.
+                    Oferuję <strong className="text-white">materiały edukacyjne</strong> i&nbsp;konsultacje, które pomogą 
+                    Ci zrozumieć <strong className="text-white">świat finansów</strong> i&nbsp;inwestycji.
                   </p>
                   <Link 
                     to="/blog" 
