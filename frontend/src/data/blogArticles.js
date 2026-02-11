@@ -74,45 +74,100 @@ Jeśli chcesz zacząć inwestować świadomie, skup się najpierw na strategii, 
     id: "2",
     slug: "planowanie-finansowe-na-emeryture",
     title: "Planowanie finansowe na emeryturę",
-    excerpt: "Dowiedz się, jak skutecznie zaplanować swoją przyszłość finansową i\u00A0zapewnić sobie komfortową emeryturę.",
-    content: `## Przygotuj się na przyszłość
+    excerpt: "Jak przygotować się na przyszłość w\u00A0świecie zmian demograficznych i\u00A0reform systemu emerytalnego?",
+    content: `## Planowanie finansowe na emeryturę – jak przygotować się na przyszłość w\u00A0świecie zmian demograficznych i\u00A0reform systemu
 
-Emerytura może wydawać się odległa, ale im wcześniej zaczniesz planować, tym lepszą pozycję finansową osiągniesz. W\u00A0Polsce przeciętna emerytura często nie wystarcza na utrzymanie dotychczasowego standardu życia.
+Planowanie emerytury przestało być tematem „na później". Zmiany demograficzne, ewolucja systemu emerytalnego oraz spadający poziom przyszłych świadczeń sprawiają, że coraz większa odpowiedzialność za bezpieczeństwo finansowe w\u00A0wieku emerytalnym przechodzi na indywidualne decyzje. Dziś pytanie nie brzmi już czy planować emeryturę, ale jak zrobić to mądrze.
 
-### Kiedy zacząć oszczędzać?
+### Dlaczego system emerytalny się zmienił – krótka historia reform
 
-Odpowiedź jest prosta: jak najwcześniej. Dzięki mechanizmowi procentu składanego, pieniądze zainwestowane w\u00A0młodości mogą się znacznie pomnożyć.
+Polski system emerytalny przeszedł w\u00A0ostatnich dekadach ogromną transformację. W\u00A0latach 90. funkcjonował model zdefiniowanego świadczenia, który obiecywał określony poziom emerytury, ale okazał się finansowo niewydolny. W\u00A01999 roku wprowadzono system oparty na indywidualnych składkach i\u00A0zależności między wpłatami a\u00A0przyszłym świadczeniem, co zwiększyło stabilność finansową systemu.
 
-### III filar - dobrowolne oszczędzanie
+Późniejsze zmiany — m.in. przekształcenia OFE czy modyfikacje zasad waloryzacji — jeszcze mocniej przesunęły ciężar odpowiedzialności na indywidualne oszczędzanie.
 
-**IKE (Indywidualne Konto Emerytalne)**
-- Limit wpłat w\u00A02025 roku: 23 472 PLN
-- Zwolnienie z\u00A0podatku od zysków kapitałowych przy wypłacie po 60/65 roku życia
+Dziś wysokość emerytury zależy przede wszystkim od:
 
-**IKZE (Indywidualne Konto Zabezpieczenia Emerytalnego)**
-- Limit wpłat w\u00A02025 roku: 9 388,80 PLN
-- Możliwość odliczenia wpłat od dochodu
-- 10% podatku przy wypłacie
+- długości aktywności zawodowej,
+- wysokości składek,
+- oraz średniego dalszego trwania życia, które obniża miesięczne świadczenia wraz z\u00A0wydłużaniem się życia społeczeństwa.
 
-### PPK - Pracownicze Plany Kapitałowe
+### Problem demograficzny – największe wyzwanie kolejnych dekad
 
-Jeśli Twój pracodawca oferuje PPK, warto z\u00A0niego skorzystać. Otrzymujesz dodatkowe środki od pracodawcy i\u00A0państwa.
+Najważniejszym czynnikiem wpływającym na przyszłe emerytury nie jest polityka, lecz demografia. Polska należy do krajów najszybciej starzejących się w\u00A0Europie.
 
-### Dywersyfikacja źródeł dochodu
+Prognozy wskazują, że:
 
-Nie polegaj tylko na jednym źródle dochodu emerytalnego. Kombinacja ZUS, PPK, IKE/IKZE i\u00A0prywatnych inwestycji da Ci największe bezpieczeństwo.
+- liczba osób starszych rośnie znacznie szybciej niż liczba osób pracujących,
+- relacja emerytów do osób aktywnych zawodowo może wzrosnąć dramatycznie do połowy wieku.
 
-### Oblicz swoją lukę emerytalną
+Według analiz międzynarodowych, bez zmian w\u00A0systemie średnia emerytura może spaść nawet do ok. 29% przeciętnego wynagrodzenia do 2050 roku, co oznacza realne obniżenie standardu życia przyszłych emerytów.
 
-Zastanów się, ile będziesz potrzebować miesięcznie na emeryturze i\u00A0porównaj to z\u00A0prognozowaną emeryturą z\u00A0ZUS. Różnica to Twoja luka emerytalna.
+To właśnie dlatego coraz większe znaczenie mają prywatne formy budowania kapitału.
 
-### Profesjonalna pomoc
+### Trzy filary indywidualnego planowania emerytalnego
 
-Doradca finansowy pomoże Ci stworzyć spersonalizowany plan emerytalny uwzględniający Twoje cele, możliwości i\u00A0tolerancję ryzyka.`,
+**IKE – elastyczność i\u00A0brak podatku Belki**
+
+Indywidualne Konto Emerytalne to rozwiązanie nastawione na długoterminowe inwestowanie. W\u00A02026 roku limit wpłat wynosi 28 260 zł rocznie, a\u00A0największą korzyścią jest brak podatku od zysków kapitałowych przy spełnieniu warunków wypłaty.
+
+IKE daje swobodę wyboru strategii inwestycyjnej — od funduszy po rachunki maklerskie — co pozwala dopasować portfel do wieku i\u00A0tolerancji ryzyka.
+
+**IKZE – bieżąca ulga podatkowa**
+
+IKZE działa inaczej niż IKE. Największą zaletą jest możliwość odliczenia wpłat od dochodu, co obniża podatek już dziś.
+
+Limity na 2026 rok:
+
+- 11 304 zł dla osób fizycznych,
+- 16 956 zł dla osób prowadzących działalność gospodarczą.
+
+To rozwiązanie szczególnie atrakcyjne dla osób z\u00A0wyższym progiem podatkowym, które chcą jednocześnie budować kapitał i\u00A0optymalizować obciążenia fiskalne.
+
+**PPK – mechanizm automatycznego oszczędzania**
+
+Pracownicze Plany Kapitałowe opierają się na współfinansowaniu przez pracownika, pracodawcę i\u00A0państwo. Ich największą zaletą jest efekt „dodatkowych pieniędzy", które zwiększają tempo budowania kapitału emerytalnego.
+
+Choć PPK często budzą emocje, w\u00A0długim terminie stanowią jedno z\u00A0najbardziej efektywnych narzędzi systematycznego oszczędzania — szczególnie dla osób, które nie inwestują samodzielnie.
+
+### Jak może wyglądać system emerytalny za 30–50 lat?
+
+Prognozy OECD wskazują, że starzenie się społeczeństwa będzie wymuszało kolejne zmiany — od modyfikacji wieku emerytalnego po wzrost znaczenia prywatnych oszczędności.
+
+Najbardziej prawdopodobne scenariusze to:
+
+- większa rola indywidualnych kont emerytalnych,
+- niższy poziom świadczeń z\u00A0systemu publicznego,
+- konieczność wydłużenia aktywności zawodowej.
+
+W\u00A0praktyce oznacza to, że przyszła emerytura będzie w\u00A0coraz większym stopniu wynikiem własnych decyzji finansowych.
+
+### Dodatkowe elementy, o\u00A0których rzadko się mówi
+
+**Dywersyfikacja źródeł dochodu emerytalnego**
+
+Nie chodzi tylko o\u00A0produkty emerytalne. Coraz większą rolę odgrywają:
+
+- inwestycje kapitałowe,
+- dochód pasywny,
+- zabezpieczenia ubezpieczeniowe.
+
+**Inflacja i\u00A0realna wartość świadczeń**
+
+Same oszczędności nie wystarczą — kluczowe jest, aby kapitał pracował szybciej niż inflacja. W\u00A0przeciwnym razie nawet duże kwoty mogą stracić realną siłę nabywczą.
+
+**Psychologia planowania**
+
+Największym błędem jest odkładanie decyzji na później. Każdy rok zwłoki oznacza konieczność wyższych wpłat w\u00A0przyszłości, aby osiągnąć ten sam efekt.
+
+### Podsumowanie
+
+Planowanie emerytury to dziś proces, który łączy zrozumienie systemu publicznego, wykorzystanie narzędzi takich jak IKE, IKZE i\u00A0PPK oraz budowę własnej strategii inwestycyjnej dopasowanej do życia i\u00A0celów finansowych.
+
+Jeśli chcesz zobaczyć, jak może wyglądać spójny plan emerytalny dopasowany do Twojej sytuacji, umów się na spotkanie i\u00A0zobacz konkretne możliwości działania.`,
     category: "Planowanie finansowe",
     author: "Jan Domański",
     published_at: "2025-01-10",
-    read_time: 10,
+    read_time: 12,
     image_url: "https://images.unsplash.com/photo-1434626881859-194d67b2b86f?w=800"
   },
   {
