@@ -1,38 +1,15 @@
-import { useState, useEffect } from "react";
+import { useMemo } from "react";
 import { useParams, Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Clock, ArrowLeft, ArrowRight, Calendar, User } from "lucide-react";
-import axios from "axios";
-
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
+import { getArticleBySlug } from "@/data/blogArticles";
 
 export default function BlogArticlePage() {
   const { slug } = useParams();
-  const [article, setArticle] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    fetchArticle();
-  }, [slug]);
-
-  const fetchArticle = async () => {
-    try {
-      setLoading(true);
-      setError(null);
-      const response = await axios.get(`${API}/blog/articles/${slug}`);
-      setArticle(response.data);
-    } catch (err) {
-      setError("Nie znaleziono artykułu");
-      console.error("Error fetching article:", err);
-    } finally {
-      setLoading(false);
-    }
-  };
+  const article = useMemo(() => getArticleBySlug(slug), [slug]);
 
   const renderMarkdown = (content) => {
-    // Simple markdown to HTML conversion
     return content
       .split("\n")
       .map((line, index) => {
@@ -51,10 +28,10 @@ export default function BlogArticlePage() {
             </h2>
           );
         }
-        // Bold text
-        if (line.startsWith("**") && line.endsWith("**")) {
+        // Bold text (whole line)
+        if (line.startsWith("**") && line.endsWith("**") && !line.includes(":**")) {
           return (
-            <p key={index} className="font-semibold text-[#0A192F] mt-4 mb-2">
+            <p key={index} className="font-semibold text-[#0A192F] mt-6 mb-2">
               {line.replace(/\*\*/g, "")}
             </p>
           );
@@ -62,27 +39,16 @@ export default function BlogArticlePage() {
         // List items
         if (line.startsWith("- ")) {
           return (
-            <li key={index} className="text-slate-600 ml-4 mb-2">
-              {line.replace("- ", "")}
+            <li key={index} className="text-slate-600 ml-4 mb-2 list-disc list-inside">
+              {renderInlineFormatting(line.replace("- ", ""))}
             </li>
           );
         }
         // Regular paragraphs
         if (line.trim()) {
-          // Handle inline bold
-          const parts = line.split(/(\*\*[^*]+\*\*)/g);
           return (
             <p key={index} className="text-slate-600 leading-relaxed mb-4">
-              {parts.map((part, i) => {
-                if (part.startsWith("**") && part.endsWith("**")) {
-                  return (
-                    <strong key={i} className="text-[#0A192F] font-semibold">
-                      {part.replace(/\*\*/g, "")}
-                    </strong>
-                  );
-                }
-                return part;
-              })}
+              {renderInlineFormatting(line)}
             </p>
           );
         }
@@ -91,32 +57,27 @@ export default function BlogArticlePage() {
       .filter(Boolean);
   };
 
-  if (loading) {
-    return (
-      <div data-testid="blog-article-loading" className="min-h-screen pt-20">
-        <div className="max-w-3xl mx-auto px-6 md:px-12 py-16">
-          <div className="animate-pulse">
-            <div className="h-4 bg-slate-200 rounded w-24 mb-6" />
-            <div className="h-10 bg-slate-200 rounded w-3/4 mb-4" />
-            <div className="h-6 bg-slate-200 rounded w-1/2 mb-8" />
-            <div className="aspect-video bg-slate-200 rounded-sm mb-8" />
-            <div className="space-y-3">
-              <div className="h-4 bg-slate-200 rounded w-full" />
-              <div className="h-4 bg-slate-200 rounded w-full" />
-              <div className="h-4 bg-slate-200 rounded w-2/3" />
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
+  const renderInlineFormatting = (text) => {
+    // Handle inline bold
+    const parts = text.split(/(\*\*[^*]+\*\*)/g);
+    return parts.map((part, i) => {
+      if (part.startsWith("**") && part.endsWith("**")) {
+        return (
+          <strong key={i} className="text-[#0A192F] font-semibold">
+            {part.replace(/\*\*/g, "")}
+          </strong>
+        );
+      }
+      return part;
+    });
+  };
 
-  if (error || !article) {
+  if (!article) {
     return (
       <div data-testid="blog-article-error" className="min-h-screen pt-20 flex items-center justify-center">
         <div className="text-center">
           <h1 className="font-display text-2xl font-bold text-[#0A192F] mb-4">
-            {error || "Artykuł nie istnieje"}
+            Artykuł nie istnieje
           </h1>
           <Link to="/blog">
             <Button className="bg-[#0A192F] text-white hover:bg-[#D4AF37] hover:text-[#0A192F] rounded-xl">
@@ -145,7 +106,7 @@ export default function BlogArticlePage() {
 
           <Badge
             variant="secondary"
-            className="bg-[#D4AF37]/10 text-[#D4AF37] font-medium rounded-sm mb-4"
+            className="bg-[#D4AF37]/10 text-[#D4AF37] font-medium rounded-xl mb-4"
           >
             {article.category}
           </Badge>
@@ -181,7 +142,7 @@ export default function BlogArticlePage() {
       {/* Featured Image */}
       <section className="bg-white">
         <div className="max-w-4xl mx-auto px-6 md:px-12 -mt-4">
-          <div className="aspect-video rounded-sm overflow-hidden shadow-lg">
+          <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
             <img
               src={article.image_url}
               alt={article.title}
