@@ -17,11 +17,11 @@ export default function AboutCompanyPage() {
             </h1>
             <p className="text-lg text-slate-600 leading-relaxed mb-4">
               Investment Partners to firma specjalizująca się 
-              w <strong className="text-[#0A192F]">planowaniu finansowym</strong>, współpracująca 
-              z instytucjami finansowymi działającymi pod nadzorem <strong className="text-[#0A192F]">Komisji Nadzoru Finansowego</strong>.
+              w&nbsp;<strong className="text-[#0A192F]">planowaniu finansowym</strong>, współpracująca 
+              z&nbsp;instytucjami finansowymi działającymi pod nadzorem <strong className="text-[#0A192F]">Komisji Nadzoru Finansowego</strong>.
             </p>
             <p className="text-lg text-slate-600 leading-relaxed">
-              W ramach tej współpracy działam jako <strong className="text-[#0A192F]">planer finansowy</strong>.
+              W&nbsp;ramach tej współpracy działam jako <strong className="text-[#0A192F]">planer finansowy</strong>.
             </p>
           </div>
         </div>
@@ -138,17 +138,17 @@ export default function AboutCompanyPage() {
               {
                 icon: Shield,
                 title: "Integralność",
-                desc: "Działamy zawsze w najlepszym interesie klienta. Przejrzystość i uczciwość to fundament naszej pracy."
+                desc: "Działamy zawsze w&nbsp;najlepszym interesie klienta. Przejrzystość i&nbsp;uczciwość to fundament naszej pracy."
               },
               {
                 icon: Users,
                 title: "Partnerstwo",
-                desc: "Budujemy długoterminowe relacje oparte na zaufaniu i wzajemnym szacunku."
+                desc: "Budujemy długoterminowe relacje oparte na zaufaniu i&nbsp;wzajemnym szacunku."
               },
               {
                 icon: Target,
                 title: "Profesjonalizm",
-                desc: "Ciągle podnosimy kwalifikacje i stosujemy najwyższe standardy branżowe."
+                desc: "Ciągle podnosimy kwalifikacje i&nbsp;stosujemy najwyższe standardy branżowe."
               },
               {
                 icon: Scale,
@@ -188,8 +188,8 @@ export default function AboutCompanyPage() {
                 Działamy zgodnie z prawem
               </h2>
               <p className="text-slate-600 leading-relaxed mb-8">
-                Investment Partners działa w pełnej zgodności z polskimi i europejskimi 
-                regulacjami dotyczącymi usług finansowych. Dbamy o najwyższe 
+                Investment Partners działa w&nbsp;pełnej zgodności z&nbsp;polskimi i&nbsp;europejskimi 
+                regulacjami dotyczącymi usług finansowych. Dbamy o&nbsp;najwyższe 
                 standardy ochrony klientów.
               </p>
 
@@ -216,7 +216,7 @@ export default function AboutCompanyPage() {
                 {[
                   {
                     title: "Poufność",
-                    desc: "Wszystkie dane klientów są chronione i przetwarzane zgodnie z RODO."
+                    desc: "Wszystkie dane klientów są chronione i&nbsp;przetwarzane zgodnie z&nbsp;RODO."
                   },
                   {
                     title: "Transparentność",
