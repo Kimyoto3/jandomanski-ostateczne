@@ -11,7 +11,7 @@ export default function HomePage() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://customer-assets.emergentagent.com/job_raw-zip-deploy/artifacts/cofs54wb_1644405925.fot.%20Urz%C4%85d%20Miasta%20Opola%20%281%29.webp')`
+           backgroundImage: `none`
           }}
         >
           <div className="hero-overlay absolute inset-0" />
