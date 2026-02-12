@@ -283,3 +283,6 @@ html {
     display: contents !important;
   }
 }
+#emergent-badge {
+  display: none !important;
+}
