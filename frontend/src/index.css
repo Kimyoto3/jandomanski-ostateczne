@@ -282,9 +282,4 @@ html {
   [data-debug-wrapper="true"] {
     display: contents !important;
   }
-#emergent-badge {
-  display: none !important;
-  opacity: 0 !important;
-  visibility: hidden !important;
-  pointer-events: none !important;
 }
