@@ -275,7 +275,7 @@ export default function HomePage() {
               <div className="relative lg:hidden mb-8">
                 <div className="aspect-[4/3] bg-slate-200 rounded-xl overflow-hidden">
                   <img
-                    src="https://customer-assets.emergentagent.com/job_invest-wisely-20/artifacts/pw4r7g7q_DSC00855.jpg"
+                    src="/jan-domanski-szklane-tlo.jpg"
                     alt="Jan Domański - Planer finansowy"
                     className="w-full h-full object-cover object-top"
                   />
