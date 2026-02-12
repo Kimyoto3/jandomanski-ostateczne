@@ -11,7 +11,7 @@ export default function HomePage() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-           backgroundImage: `none`
+           backgroundImage: "url('/opole-hero.webp')"
           }}
         >
           <div className="hero-overlay absolute inset-0" />
